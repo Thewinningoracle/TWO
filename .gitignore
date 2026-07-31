@@ -2,3 +2,8 @@ secrets_local.py
 dernier_check_inscriptions.txt
 __pycache__/
 *.pyc
+update_site.py
+test_upsert.py
+pipeline_log.txt
+Lancer Update_site.bat
+update_site_files/
