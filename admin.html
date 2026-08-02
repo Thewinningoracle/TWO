@@ -129,6 +129,11 @@
                     <div class="bg-slate-900 border gold-frame rounded-xl p-4 h-12 animate-pulse"></div>
                 </div>
 
+                <h3 class="text-sm font-bold mb-3 text-slate-300"><i class="fa-solid fa-magnifying-glass-chart mr-2 text-yellow-400"></i>Analyses à clôturer <span class="text-slate-500 font-normal text-xs">(toutes — un VB_valide clôturé ici synchronise aussi le pari réel associé)</span></h3>
+                <div id="app-clotures-analyses" class="mb-10">
+                    <div class="bg-slate-900 border gold-frame rounded-xl p-4 h-12 animate-pulse"></div>
+                </div>
+
                 <h3 class="text-sm font-bold mb-3 text-slate-300"><i class="fa-solid fa-users mr-2 text-yellow-400"></i>Abonnés</h3>
                 <div id="app-abonnes">
                     <div class="bg-slate-900 border gold-frame rounded-xl p-4 h-12 animate-pulse"></div>
@@ -136,6 +141,7 @@
 
             renderAdmin();
             renderClotures();
+            renderClotureAnalyses();
         }
 
         function renderLogin() {
@@ -319,6 +325,78 @@
             }
 
             renderClotures();
+        }
+
+        async function renderClotureAnalyses() {
+            const app = document.getElementById('app-clotures-analyses');
+            app.innerHTML = `<div class="bg-slate-900 border gold-frame rounded-xl p-4 h-12 animate-pulse"></div>`;
+
+            const { data, error } = await supabaseClient
+                .from('analyses_generales')
+                .select('*')
+                .order('date_match', { ascending: true });
+
+            if (error) {
+                app.innerHTML = `<p class="text-red-400 text-xs">Erreur de chargement : ${error.message}</p>`;
+                return;
+            }
+
+            if (!data || data.length === 0) {
+                app.innerHTML = `<p class="text-slate-500 text-xs">Aucune analyse en attente de clôture pour le moment.</p>`;
+                return;
+            }
+
+            const cartes = data.map(a => `
+                <div class="bg-slate-900 border gold-frame rounded-2xl p-4">
+                    <div class="flex justify-between items-start mb-3">
+                        <div>
+                            <span class="text-violet-300 text-[10px] font-bold uppercase">${a.tournoi}</span>
+                            <span class="ml-2 text-[10px] px-2 py-0.5 rounded-full font-bold ${a.statut_analyse === 'VB_suspect' ? 'bg-amber-500/20 text-amber-300' : 'bg-slate-700/50 text-slate-400'}">${a.statut_analyse || '—'}</span>
+                            <h4 class="text-sm font-bold">${a.match_intitule}</h4>
+                            <p class="text-xs text-slate-400 mt-1">
+                                ${a.joueur_choisi} @ ${a.cote_marche != null ? Number(a.cote_marche).toFixed(2) : '—'}
+                                ${a.mise ? ` — mise théorique ${Number(a.mise).toFixed(2)} €` : ' — sans mise (Pas_de_value)'}
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex gap-2">
+                        <button onclick="clotureAnalyse(${a.id}, ${a.analyse_id}, 'Gagné', ${a.cote_marche ?? 0}, ${a.mise ?? 0})" class="flex-1 text-xs px-3 py-2 rounded-lg font-bold bg-emerald-600 hover:bg-emerald-500 text-slate-950">Gagné</button>
+                        <button onclick="clotureAnalyse(${a.id}, ${a.analyse_id}, 'Perdu', ${a.cote_marche ?? 0}, ${a.mise ?? 0})" class="flex-1 text-xs px-3 py-2 rounded-lg font-bold bg-red-900/60 hover:bg-red-900 text-red-200">Perdu</button>
+                        <button onclick="clotureAnalyse(${a.id}, ${a.analyse_id}, 'Annulé', ${a.cote_marche ?? 0}, ${a.mise ?? 0})" class="flex-1 text-xs px-3 py-2 rounded-lg font-bold bg-slate-700 hover:bg-slate-600 text-slate-200">Annulé</button>
+                    </div>
+                </div>`).join('');
+
+            app.innerHTML = `<div class="grid grid-cols-1 md:grid-cols-2 gap-4">${cartes}</div>`;
+        }
+
+        async function clotureAnalyse(rowId, analyseId, statut, cote, mise) {
+            let gainNet;
+            if (!mise) gainNet = 0;  // Pas_de_value : jamais de mise réelle ou théorique engagée
+            else if (statut === 'Gagné') gainNet = Math.round((mise * cote - mise) * 100) / 100;
+            else if (statut === 'Perdu') gainNet = -mise;
+            else gainNet = 0;
+
+            const { error: errInsert } = await supabaseClient
+                .from('analyses_clotures')
+                .insert({ analyse_id: analyseId, statut, gain_net: gainNet });
+
+            if (errInsert) {
+                showToast("Erreur lors de l'enregistrement de la clôture : " + errInsert.message);
+                return;
+            }
+
+            const { error: errDelete } = await supabaseClient
+                .from('analyses_generales')
+                .delete()
+                .eq('id', rowId);
+
+            if (errDelete) {
+                showToast("Clôture enregistrée, mais le retrait de la carte a échoué : " + errDelete.message);
+            } else {
+                showToast(`Analyse clôturée : ${statut}${mise ? ` (${gainNet >= 0 ? '+' : ''}${gainNet.toFixed(2)} €)` : ''}`, 'success');
+            }
+
+            renderClotureAnalyses();
         }
 
         async function togglePremium(userId, nouvelleValeur) {
