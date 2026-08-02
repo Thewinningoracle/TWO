@@ -360,6 +360,17 @@
                     }
                 }
 
+                // Un match daté d'hier ou avant, toujours "En cours" : cadre rouge au lieu du
+                // cadre doré habituel, pour repérer d'un coup d'oeil ce qui traîne anormalement.
+                function estMatchAncien(dateMatchStr) {
+                    if (!dateMatchStr) return false;
+                    const dateMatch = new Date(dateMatchStr);
+                    if (isNaN(dateMatch.getTime())) return false;
+                    const aujourdhui = new Date();
+                    aujourdhui.setHours(0, 0, 0, 0);
+                    return dateMatch < aujourdhui;
+                }
+
                 async function chargerPronos() {
                     const grid = document.getElementById('pronos-grid');
                     const { data: { session } } = await supabaseClient.auth.getSession();
@@ -382,8 +393,12 @@
 
                     mettreAJourStatsProsposLive(data);
 
-                    grid.innerHTML = data.map(row => `
-                        <div class="bg-slate-900 border gold-frame rounded-2xl p-5 card-hover">
+                    grid.innerHTML = data.map(row => {
+                        const cadre = estMatchAncien(row.date_match)
+                            ? 'border-2 border-red-600'
+                            : 'border gold-frame';
+                        return `
+                        <div class="bg-slate-900 ${cadre} rounded-2xl p-5 card-hover">
                             <div class="flex justify-between items-start mb-4">
                                 <div>
                                     <span class="text-violet-300 text-xs font-bold uppercase">${row.tournoi}</span>
@@ -411,7 +426,8 @@
                             <p class="text-[10px] text-slate-500 border-t border-slate-700 pt-3">
                                 <i class="fa-regular fa-clock mr-1"></i>Mis en ligne le ${formaterDateHeure(row.created_at)}
                             </p>
-                        </div>`).join('');
+                        </div>`;
+                    }).join('');
 
                     verifierPronosNonVus(data);
                 }
@@ -611,18 +627,27 @@
                         return;
                     }
 
-                    const rows = data.map(row => `
-                        <tr class="border-b border-slate-700 hover:bg-slate-800/30 transition">
+                    const rows = data.map(row => {
+                        const accent = estMatchAncien(row.date_match)
+                            ? 'border-l-4 border-l-red-600'
+                            : '';
+                        return `
+                        <tr class="border-b border-slate-700 hover:bg-slate-800/30 transition ${accent}">
                             <td class="px-6 py-4 text-center text-xs text-violet-300 font-bold uppercase">${row.tournoi}</td>
                             <td class="px-6 py-4 text-center text-xs text-white">${row.match_intitule}</td>
                             <td class="px-6 py-4 text-center text-xs text-white font-bold">${row.joueur_choisi}</td>
                             <td class="px-6 py-4 text-center text-xs text-yellow-300">${fmtCote(row.cote_calculee)}</td>
                             <td class="px-6 py-4 text-center text-xs text-slate-400">${fmtCote(row.cote_marche)}</td>
                             <td class="px-6 py-4 text-center text-xs">${badgeStatutAnalyse(row.statut_analyse)}</td>
-                        </tr>`).join('');
+                        </tr>`;
+                    }).join('');
 
-                    const cards = data.map(row => `
-                        <div class="bg-slate-900 border gold-frame rounded-2xl p-4">
+                    const cards = data.map(row => {
+                        const cadre = estMatchAncien(row.date_match)
+                            ? 'border-2 border-red-600'
+                            : 'border gold-frame';
+                        return `
+                        <div class="bg-slate-900 ${cadre} rounded-2xl p-4">
                             <div class="flex justify-between items-start mb-1">
                                 <span class="text-violet-300 text-[10px] font-bold uppercase">${row.tournoi}</span>
                                 ${badgeStatutAnalyse(row.statut_analyse)}
@@ -639,7 +664,8 @@
                                     <p class="text-sm font-bold text-slate-300">${fmtCote(row.cote_marche)}</p>
                                 </div>
                             </div>
-                        </div>`).join('');
+                        </div>`;
+                    }).join('');
 
                     container.innerHTML = `
                         <div class="hidden md:block overflow-x-auto">
