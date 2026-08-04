@@ -7,3 +7,4 @@ test_upsert.py
 pipeline_log.txt
 Lancer Update_site.bat
 update_site_files/
+.env
