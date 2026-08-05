@@ -401,13 +401,13 @@
                         <div class="bg-slate-900 ${cadre} rounded-2xl p-5 card-hover">
                             <div class="flex justify-between items-start mb-4">
                                 <div>
-                                    <span class="text-violet-300 text-xs font-bold uppercase">${echapperHtml(row.tournoi)}</span>
-                                    <h3 class="text-sm font-bold mt-1">${echapperHtml(row.match_intitule)}</h3>
+                                    <span class="text-violet-300 text-xs font-bold uppercase">${row.tournoi}</span>
+                                    <h3 class="text-sm font-bold mt-1">${row.match_intitule}</h3>
                                 </div>
                             </div>
                             <div class="bg-slate-950 rounded-xl p-4 mb-4">
                                 <p class="text-slate-500 text-[10px] uppercase tracking-wider mb-1">Pari</p>
-                                <p class="text-base font-bold text-yellow-300 leading-snug break-words">${echapperHtml(row.pari)}</p>
+                                <p class="text-base font-bold text-yellow-300 leading-snug break-words">${row.pari}</p>
                             </div>
                             <div class="grid grid-cols-3 gap-2 text-xs mb-3">
                                 <div class="text-center">
@@ -633,9 +633,9 @@
                             : '';
                         return `
                         <tr class="border-b border-slate-700 hover:bg-slate-800/30 transition ${accent}">
-                            <td class="px-6 py-4 text-center text-xs text-violet-300 font-bold uppercase">${echapperHtml(row.tournoi)}</td>
-                            <td class="px-6 py-4 text-center text-xs text-white">${echapperHtml(row.match_intitule)}</td>
-                            <td class="px-6 py-4 text-center text-xs text-white font-bold">${echapperHtml(row.joueur_choisi)}</td>
+                            <td class="px-6 py-4 text-center text-xs text-violet-300 font-bold uppercase">${row.tournoi}</td>
+                            <td class="px-6 py-4 text-center text-xs text-white">${row.match_intitule}</td>
+                            <td class="px-6 py-4 text-center text-xs text-white font-bold">${row.joueur_choisi}</td>
                             <td class="px-6 py-4 text-center text-xs text-yellow-300">${fmtCote(row.cote_calculee)}</td>
                             <td class="px-6 py-4 text-center text-xs text-slate-400">${fmtCote(row.cote_marche)}</td>
                             <td class="px-6 py-4 text-center text-xs">${badgeStatutAnalyse(row.statut_analyse)}</td>
@@ -649,11 +649,11 @@
                         return `
                         <div class="bg-slate-900 ${cadre} rounded-2xl p-4">
                             <div class="flex justify-between items-start mb-1">
-                                <span class="text-violet-300 text-[10px] font-bold uppercase">${echapperHtml(row.tournoi)}</span>
+                                <span class="text-violet-300 text-[10px] font-bold uppercase">${row.tournoi}</span>
                                 ${badgeStatutAnalyse(row.statut_analyse)}
                             </div>
-                            <p class="text-sm font-bold text-white mt-1 mb-1">${echapperHtml(row.match_intitule)}</p>
-                            <p class="text-xs text-slate-400 mb-3">Pari retenu : <span class="text-white font-bold">${echapperHtml(row.joueur_choisi)}</span></p>
+                            <p class="text-sm font-bold text-white mt-1 mb-1">${row.match_intitule}</p>
+                            <p class="text-xs text-slate-400 mb-3">Pari retenu : <span class="text-white font-bold">${row.joueur_choisi}</span></p>
                             <div class="grid grid-cols-2 gap-2 text-xs">
                                 <div>
                                     <p class="text-slate-500 text-[10px] uppercase tracking-wider mb-1">Cote calculée</p>
