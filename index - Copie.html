@@ -480,30 +480,12 @@
 
                 function renderAuthCard(message) {
                     const grid = document.getElementById('pronos-grid');
-                    const estConnexion = authMode === 'login';
 
                     grid.innerHTML = `
                         <div class="col-span-full bg-slate-900 border gold-frame rounded-2xl p-6 sm:p-8 text-center max-w-md mx-auto">
                             <div class="text-3xl mb-3 opacity-50">🔒</div>
-                            <h4 class="text-sm font-bold mb-4">${estConnexion ? 'Pronostics réservés aux membres du Club' : 'Créer votre compte membre'}</h4>
-
-                            ${message ? `<p class="text-emerald-400 text-xs mb-3">${message}</p>` : ''}
-
-                            <input id="email" type="email" placeholder="email" class="w-full mb-2 bg-black border gold-frame text-xs p-2 rounded text-white" onkeydown="if(event.key==='Enter') ${estConnexion ? 'loginSupabase()' : 'signupSupabase()'}">
-                            <input id="pass" type="password" placeholder="mot de passe (6 caractères min.)" class="w-full mb-2 bg-black border gold-frame text-xs p-2 rounded text-white" onkeydown="if(event.key==='Enter') ${estConnexion ? 'loginSupabase()' : 'signupSupabase()'}">
-                            ${estConnexion ? '' : `<input id="pass-confirm" type="password" placeholder="confirmer le mot de passe" class="w-full mb-2 bg-black border gold-frame text-xs p-2 rounded text-white" onkeydown="if(event.key==='Enter') signupSupabase()">`}
-
-                            <button onclick="${estConnexion ? 'loginSupabase()' : 'signupSupabase()'}" class="bg-gradient-to-r from-violet-700 via-fuchsia-500 to-amber-400 hover:brightness-110 text-white text-xs px-4 py-2 rounded font-bold w-full mt-2">
-                                ${estConnexion ? 'Se connecter' : 'Créer mon compte'}
-                            </button>
-
-                            ${estConnexion ? `<button onclick="demanderReinitialisation('email')" class="text-slate-500 text-[11px] mt-2 hover:underline w-full bg-transparent">Mot de passe oublié ?</button>` : ''}
-
-                            <button onclick="switchAuthMode()" class="text-slate-400 text-xs mt-3 hover:underline w-full">
-                                ${estConnexion ? "Pas encore de compte ? S'inscrire" : "Déjà un compte ? Se connecter"}
-                            </button>
-
-                            <a href="#tarifs" class="block text-yellow-400 text-xs mt-4 hover:underline">Voir les tarifs d'abonnement</a>
+                            <h4 class="text-[13px] font-bold mb-2">Pronostics réservés aux membres du Club</h4>
+                            <p class="text-[10px] text-slate-500 mt-2">Connectez-vous pour accéder aux pronostics premium</p>
                         </div>`;
                 }
 
@@ -611,8 +593,8 @@
                         container.innerHTML = `
                             <div class="bg-slate-900 border gold-frame rounded-2xl p-6 sm:p-8 text-center max-w-md mx-auto">
                                 <div class="text-3xl mb-3 opacity-50">🔒</div>
-                                <h4 class="text-sm font-bold mb-4">Analyses réservées aux membres du Club</h4>
-                                <a href="#pronos" class="inline-block bg-gradient-to-r from-violet-700 via-fuchsia-500 to-amber-400 hover:brightness-110 text-white text-xs px-4 py-2 rounded font-bold mt-2">Se connecter / S'inscrire</a>
+                                <h4 class="text-[13px] font-bold mb-2">Analyses réservées aux membres du Club</h4>
+                                <p class="text-[10px] text-slate-500 mt-2">Connectez-vous pour accéder aux analyses détaillées</p>
                             </div>`;
                         return;
                     }

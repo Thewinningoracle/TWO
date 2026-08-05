@@ -91,14 +91,6 @@
             setTimeout(() => { toast.classList.add('opacity-0', 'translate-x-4'); setTimeout(() => toast.remove(), 300); }, 4500);
         }
 
-        // Échappe le texte avant insertion en innerHTML (protection XSS pour les champs
-        // qui proviennent de saisies utilisateur ou de données externes, ex: email, intitulés).
-        function echapperHtml(texte) {
-            const div = document.createElement('div');
-            div.textContent = texte ?? '';
-            return div.innerHTML;
-        }
-
         async function init() {
             const app = document.getElementById('app');
             const { data: { session } } = await supabaseClient.auth.getSession();
@@ -216,7 +208,7 @@
 
             const rows = data.map(p => `
                 <tr class="border-b border-slate-700">
-                    <td class="px-4 py-3 text-xs text-white">${p.email ? echapperHtml(p.email) : '—'}</td>
+                    <td class="px-4 py-3 text-xs text-white">${p.email || '—'}</td>
                     <td class="px-4 py-3 text-xs text-center">
                         <span class="px-2 py-1 rounded-full text-[10px] font-bold ${p.is_premium ? 'bg-amber-500/20 text-amber-300' : 'bg-slate-700/50 text-slate-400'}">
                             ${p.is_premium ? 'PREMIUM' : 'GRATUIT'}
@@ -234,7 +226,7 @@
             const cartes = data.map(p => `
                 <div class="bg-slate-900 border gold-frame rounded-2xl p-4">
                     <div class="flex justify-between items-start gap-2 mb-3">
-                        <p class="text-xs text-white break-all">${p.email ? echapperHtml(p.email) : '—'}</p>
+                        <p class="text-xs text-white break-all">${p.email || '—'}</p>
                         <span class="shrink-0 px-2 py-1 rounded-full text-[10px] font-bold ${p.is_premium ? 'bg-amber-500/20 text-amber-300' : 'bg-slate-700/50 text-slate-400'}">
                             ${p.is_premium ? 'PREMIUM' : 'GRATUIT'}
                         </span>
@@ -291,9 +283,9 @@
                 <div class="bg-slate-900 border gold-frame rounded-2xl p-4">
                     <div class="flex justify-between items-start mb-3">
                         <div>
-                            <span class="text-violet-300 text-[10px] font-bold uppercase">${echapperHtml(p.tournoi)}</span>
-                            <h4 class="text-sm font-bold">${echapperHtml(p.match_intitule)}</h4>
-                            <p class="text-xs text-slate-400 mt-1">${echapperHtml(p.pari)} @ ${Number(p.cote).toFixed(2)} — mise ${Number(p.mise).toFixed(2)} €</p>
+                            <span class="text-violet-300 text-[10px] font-bold uppercase">${p.tournoi}</span>
+                            <h4 class="text-sm font-bold">${p.match_intitule}</h4>
+                            <p class="text-xs text-slate-400 mt-1">${p.pari} @ ${Number(p.cote).toFixed(2)} — mise ${Number(p.mise).toFixed(2)} €</p>
                         </div>
                     </div>
                     <div class="flex gap-2">
@@ -358,11 +350,11 @@
                 <div class="bg-slate-900 border gold-frame rounded-2xl p-4">
                     <div class="flex justify-between items-start mb-3">
                         <div>
-                            <span class="text-violet-300 text-[10px] font-bold uppercase">${echapperHtml(a.tournoi)}</span>
-                            <span class="ml-2 text-[10px] px-2 py-0.5 rounded-full font-bold ${a.statut_analyse === 'VB_suspect' ? 'bg-amber-500/20 text-amber-300' : 'bg-slate-700/50 text-slate-400'}">${echapperHtml(a.statut_analyse) || '—'}</span>
-                            <h4 class="text-sm font-bold">${echapperHtml(a.match_intitule)}</h4>
+                            <span class="text-violet-300 text-[10px] font-bold uppercase">${a.tournoi}</span>
+                            <span class="ml-2 text-[10px] px-2 py-0.5 rounded-full font-bold ${a.statut_analyse === 'VB_suspect' ? 'bg-amber-500/20 text-amber-300' : 'bg-slate-700/50 text-slate-400'}">${a.statut_analyse || '—'}</span>
+                            <h4 class="text-sm font-bold">${a.match_intitule}</h4>
                             <p class="text-xs text-slate-400 mt-1">
-                                ${echapperHtml(a.joueur_choisi)} @ ${a.cote_marche != null ? Number(a.cote_marche).toFixed(2) : '—'}
+                                ${a.joueur_choisi} @ ${a.cote_marche != null ? Number(a.cote_marche).toFixed(2) : '—'}
                                 ${a.mise ? ` — mise théorique ${Number(a.mise).toFixed(2)} €` : ' — sans mise (Pas_de_value)'}
                             </p>
                         </div>
