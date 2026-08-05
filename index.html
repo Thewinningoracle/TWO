@@ -22,6 +22,15 @@
         const SUPABASE_PUBLISHABLE_KEY = 'sb_publishable_yR4T32bvVYiH2CNUzSKiJg_eb-Trm3M';
         const supabaseClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_PUBLISHABLE_KEY);
 
+        // Échappe le texte avant insertion en innerHTML (protection XSS). Déclarée ici,
+        // au niveau global, pour être utilisable depuis tous les blocs <script> de la page
+        // (contrairement à celle du bloc "performances", isolée dans sa propre IIFE).
+        function echapperHtml(texte) {
+            const div = document.createElement('div');
+            div.textContent = texte ?? '';
+            return div.innerHTML;
+        }
+
         // Notifications discrètes (remplace les alert() du navigateur)
         function showToast(message, type = 'error') {
             const container = document.getElementById('toast-container');
