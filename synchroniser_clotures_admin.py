@@ -13,12 +13,12 @@ un match qui apparaît à tort comme "non clôturé" dans le mail du lendemain.
 Ce script se contente d'appeler les deux fonctions de synchronisation déjà
 présentes dans update_site.py, sans dupliquer leur logique.
 
-IMPORTANT : comme update_site.py calcule son chemin de base de données de
-façon relative au répertoire d'exécution courant (pas à son propre emplacement),
-ce script doit être lancé depuis TWO\\Site\\ — exactement comme update_site.py
-lui-même. Voir TWO_FULL_AUTO.bat pour l'usage réel (pushd/popd autour de l'appel).
+update_site.py calcule désormais son chemin de base de données à partir de son
+propre emplacement (et non plus du répertoire d'exécution courant), donc ce
+script peut être lancé depuis n'importe quel répertoire — plus besoin du
+pushd/popd de TWO_FULL_AUTO.bat pour ce cas précis.
 
-Usage (depuis TWO\\Site\\) :
+Usage :
     python synchroniser_clotures_admin.py
 """
 
