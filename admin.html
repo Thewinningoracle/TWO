@@ -143,13 +143,19 @@
                 </div>
 
                 <h3 class="text-sm font-bold mb-3 text-slate-300"><i class="fa-solid fa-users mr-2 text-yellow-400"></i>Abonnés</h3>
-                <div id="app-abonnes">
+                <div id="app-abonnes" class="mb-10">
+                    <div class="bg-slate-900 border gold-frame rounded-xl p-4 h-12 animate-pulse"></div>
+                </div>
+
+                <h3 class="text-sm font-bold mb-3 text-slate-300"><i class="fa-solid fa-clock-rotate-left mr-2 text-yellow-400"></i>Analyses en cours <span class="text-slate-500 font-normal text-xs">(7 derniers jours glissants)</span></h3>
+                <div id="app-analyses-recentes">
                     <div class="bg-slate-900 border gold-frame rounded-xl p-4 h-12 animate-pulse"></div>
                 </div>`;
 
             renderAdmin();
             renderClotures();
             renderClotureAnalyses();
+            renderAnalysesRecentes();
         }
 
         function renderLogin() {
@@ -405,6 +411,97 @@
             }
 
             renderClotureAnalyses();
+        }
+
+        // jj/mm/aa - hh:mm (année sur 2 chiffres, cf. demande admin)
+        function formaterDateCourte(isoString) {
+            if (!isoString) return '—';
+            const d = new Date(isoString);
+            if (isNaN(d.getTime())) return '—';
+            const date = d.toLocaleDateString('fr-FR', { day: '2-digit', month: '2-digit', year: '2-digit' });
+            const heure = d.toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' });
+            return `${date} - ${heure}`;
+        }
+
+        async function renderAnalysesRecentes() {
+            const app = document.getElementById('app-analyses-recentes');
+            app.innerHTML = `<div class="bg-slate-900 border gold-frame rounded-xl p-4 h-12 animate-pulse"></div>`;
+
+            const maintenant = new Date();
+            const ilYA7Jours = new Date(maintenant.getTime() - 7 * 24 * 60 * 60 * 1000);
+
+            // Ne couvre que les analyses encore "en cours" (seules celles-ci sont
+            // présentes sur Supabase — voir table analyses_generales), filtrées sur
+            // une fenêtre glissante de 7 jours.
+            const { data, error } = await supabaseClient
+                .from('analyses_generales')
+                .select('tournoi, date_match, match_intitule, joueur_choisi, cote_marche, mise, statut_analyse')
+                .gte('date_match', ilYA7Jours.toISOString())
+                .lte('date_match', maintenant.toISOString())
+                .order('date_match', { ascending: false });
+
+            if (error) {
+                app.innerHTML = `<p class="text-red-400 text-xs">Erreur de chargement : ${error.message}</p>`;
+                return;
+            }
+
+            if (!data || data.length === 0) {
+                app.innerHTML = `<p class="text-slate-500 text-xs">Aucune analyse sur les 7 derniers jours.</p>`;
+                return;
+            }
+
+            const badgeStatut = (statut) => {
+                const styles = {
+                    VB_valide: 'bg-emerald-500/20 text-emerald-300',
+                    VB_suspect: 'bg-amber-500/20 text-amber-300',
+                    Pas_de_value: 'bg-slate-700/50 text-slate-400'
+                };
+                return `<span class="px-2 py-0.5 rounded-full text-[10px] font-bold ${styles[statut] || 'bg-slate-700/50 text-slate-400'}">${echapperHtml(statut) || '—'}</span>`;
+            };
+
+            const rows = data.map(a => `
+                <tr class="border-b border-slate-700">
+                    <td class="px-4 py-3 text-xs text-slate-300">${echapperHtml(a.tournoi) || '—'}</td>
+                    <td class="px-4 py-3 text-xs text-slate-400 whitespace-nowrap">${formaterDateCourte(a.date_match)}</td>
+                    <td class="px-4 py-3 text-xs text-white">${echapperHtml(a.match_intitule) || '—'}</td>
+                    <td class="px-4 py-3 text-xs text-slate-300">${echapperHtml(a.joueur_choisi) || '—'}</td>
+                    <td class="px-4 py-3 text-xs text-center text-slate-300">${a.cote_marche != null ? Number(a.cote_marche).toFixed(2) : '—'}</td>
+                    <td class="px-4 py-3 text-xs text-center text-slate-300">${a.mise ? Number(a.mise).toFixed(2) + ' €' : '—'}</td>
+                    <td class="px-4 py-3 text-center">${badgeStatut(a.statut_analyse)}</td>
+                </tr>`).join('');
+
+            const cartes = data.map(a => `
+                <div class="bg-slate-900 border gold-frame rounded-2xl p-4">
+                    <div class="flex justify-between items-start gap-2 mb-2">
+                        <span class="text-violet-300 text-[10px] font-bold uppercase">${echapperHtml(a.tournoi) || '—'}</span>
+                        ${badgeStatut(a.statut_analyse)}
+                    </div>
+                    <h4 class="text-sm font-bold">${echapperHtml(a.match_intitule) || '—'}</h4>
+                    <p class="text-xs text-slate-400 mt-1">${echapperHtml(a.joueur_choisi) || '—'} @ ${a.cote_marche != null ? Number(a.cote_marche).toFixed(2) : '—'}${a.mise ? ` — mise ${Number(a.mise).toFixed(2)} €` : ''}</p>
+                    <p class="text-[10px] text-slate-500 mt-1">${formaterDateCourte(a.date_match)}</p>
+                </div>`).join('');
+
+            app.innerHTML = `
+                <p class="text-slate-500 text-xs mb-3">${data.length} analyse(s) sur les 7 derniers jours</p>
+
+                <div class="hidden md:block bg-slate-900 border gold-frame rounded-2xl overflow-hidden">
+                    <table class="w-full">
+                        <thead class="bg-slate-950">
+                            <tr>
+                                <th class="px-4 py-3 text-left text-[10px] uppercase text-slate-500">Tournoi</th>
+                                <th class="px-4 py-3 text-left text-[10px] uppercase text-slate-500">Date match</th>
+                                <th class="px-4 py-3 text-left text-[10px] uppercase text-slate-500">Match</th>
+                                <th class="px-4 py-3 text-left text-[10px] uppercase text-slate-500">Joueur choisi</th>
+                                <th class="px-4 py-3 text-center text-[10px] uppercase text-slate-500">Cote jouée</th>
+                                <th class="px-4 py-3 text-center text-[10px] uppercase text-slate-500">Mise</th>
+                                <th class="px-4 py-3 text-center text-[10px] uppercase text-slate-500">Statut</th>
+                            </tr>
+                        </thead>
+                        <tbody>${rows}</tbody>
+                    </table>
+                </div>
+
+                <div class="md:hidden space-y-3">${cartes}</div>`;
         }
 
         async function togglePremium(userId, nouvelleValeur) {
