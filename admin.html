@@ -466,7 +466,7 @@
                     <td class="px-4 py-3 text-xs text-white">${echapperHtml(a.match_intitule) || '—'}</td>
                     <td class="px-4 py-3 text-xs text-slate-300">${echapperHtml(a.joueur_choisi) || '—'}</td>
                     <td class="px-4 py-3 text-xs text-center text-slate-300">${a.cote_marche != null ? Number(a.cote_marche).toFixed(2) : '—'}</td>
-                    <td class="px-4 py-3 text-xs text-center text-slate-300">${a.mise ? Number(a.mise).toFixed(2) + ' €' : '—'}</td>
+                    <td class="px-4 py-3 text-xs text-center text-slate-300 whitespace-nowrap">${a.mise ? Number(a.mise).toFixed(2) + '\u00A0€' : '—'}</td>
                     <td class="px-4 py-3 text-center">${badgeStatut(a.statut_analyse)}</td>
                 </tr>`).join('');
 
