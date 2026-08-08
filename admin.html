@@ -437,7 +437,6 @@
                 .from('analyses_generales')
                 .select('tournoi, date_match, match_intitule, joueur_choisi, cote_marche, mise, statut_analyse')
                 .gte('date_match', ilYA7Jours.toISOString())
-                .lte('date_match', maintenant.toISOString())
                 .order('date_match', { ascending: false });
 
             if (error) {
