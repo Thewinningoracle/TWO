@@ -191,10 +191,13 @@
                 <a href="#roi" class="hover:text-yellow-400 transition-colors">Performances</a>
                 <a href="#audit" class="hover:text-yellow-400 transition-colors">Audit</a>
                 <a href="#tarifs" class="hover:text-yellow-400 transition-colors">Tarifs</a>
-                <a href="admin.html" id="admin-link-desktop" class="hidden text-slate-300 hover:text-yellow-300 transition-colors"><i class="fa-solid fa-user-shield mr-1"></i>Admin</a>
             </div>
 
             <div class="hidden md:flex items-center gap-3 relative">
+                <a href="admin.html" id="admin-link-desktop"
+                   class="hidden md:inline-flex items-center gap-2 border-2 border-amber-400/70 hover:bg-amber-400/10 hover:border-amber-300 text-amber-300 font-bold px-5 py-3 rounded-2xl transition-all active:scale-95 text-sm">
+                    <i class="fa-solid fa-user-shield"></i> Admin
+                </a>
                 <button id="nav-login-btn-desktop" onclick="toggleNavLoginPanel()"
                    class="border gold-frame hover:border-yellow-400 hover:text-yellow-300 font-semibold px-5 py-3 rounded-2xl transition-all active:scale-95 text-sm">
                     Se connecter
@@ -232,7 +235,7 @@
                 <a href="#roi" class="py-2 hover:text-yellow-400 transition-colors">Performances</a>
                 <a href="#audit" class="py-2 hover:text-yellow-400 transition-colors">Audit Blockchain</a>
                 <a href="#tarifs" class="py-2 hover:text-yellow-400 transition-colors">Tarifs</a>
-                <a href="admin.html" id="admin-link-mobile" class="hidden py-2 text-slate-300"><i class="fa-solid fa-user-shield mr-1"></i>Admin</a>
+                <a href="admin.html" id="admin-link-mobile" class="hidden mt-2 flex items-center justify-center gap-2 border-2 border-amber-400/70 hover:bg-amber-400/10 text-amber-300 text-center py-4 rounded-2xl font-bold"><i class="fa-solid fa-user-shield"></i> Admin</a>
                 <a href="#tarifs" id="cta-tarifs-mobile" class="mt-4 bg-gradient-to-r from-violet-700 via-fuchsia-500 to-amber-400 text-center py-4 rounded-2xl font-bold text-white">
                     Rejoindre le Club
                 </a>
@@ -573,7 +576,7 @@
         <section id="analyses-generales" class="scroll-mt-20">
             <div class="text-center mb-6 sm:mb-8">
                 <h2 class="title-glow section-title text-3xl sm:text-4xl font-extrabold">Analyses Générales</h2>
-                <p class="text-slate-400 mt-4 text-xs">Tous les matchs analysés aujourd'hui par le modèle et écartés comme value bet — les paris retenus (Value Bet) sont à retrouver ci-dessus, dans "Pronostics"</p>
+                <p class="text-slate-400 mt-4 text-xs">Tous les matchs analysés aujourd'hui par le modèle, retenus ou non comme value bet</p>
             </div>
 
             <div id="analyses-generales-container">
@@ -608,15 +611,10 @@
                         return;
                     }
 
-                    const { data: dataBrute, error } = await supabaseClient
+                    const { data, error } = await supabaseClient
                         .from('analyses_generales')
                         .select('*')
                         .order('date_match', { ascending: true });
-
-                    // Les VB_valide ont déjà leur propre carte, avec la mise réellement jouée,
-                    // dans la section "Pronostics" juste au-dessus (table pronos_premium) : on
-                    // évite ici de faire réapparaître le même match une 2e fois.
-                    const data = (dataBrute || []).filter(row => row.statut_analyse !== 'VB_valide');
 
                     if (error || !data || data.length === 0) {
                         container.innerHTML = `<p class="text-slate-500 text-center py-10 text-xs">Aucun accès premium actif sur ce compte, ou aucune analyse enregistrée aujourd'hui.</p>`;
