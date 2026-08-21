@@ -159,8 +159,13 @@
                     <div class="bg-slate-900 border gold-frame rounded-xl p-4 h-12 animate-pulse"></div>
                 </div>
 
-                <h3 class="text-sm font-bold mb-3 text-slate-300"><i class="fa-solid fa-clock-rotate-left mr-2 text-yellow-400"></i>Résultats clôturés <span class="text-slate-500 font-normal text-xs">(7 derniers jours glissants)</span></h3>
-                <div id="app-resultats-recents">
+                <h3 class="text-sm font-bold mb-3 text-slate-300"><i class="fa-solid fa-clock-rotate-left mr-2 text-yellow-400"></i>Résultats clôturés — Value Bets <span class="text-slate-500 font-normal text-xs">(7 derniers jours glissants)</span></h3>
+                <div id="app-resultats-vb" class="mb-10">
+                    <div class="bg-slate-900 border gold-frame rounded-xl p-4 h-12 animate-pulse"></div>
+                </div>
+
+                <h3 class="text-sm font-bold mb-3 text-slate-300"><i class="fa-solid fa-clock-rotate-left mr-2 text-yellow-400"></i>Résultats clôturés — Pas de value <span class="text-slate-500 font-normal text-xs">(7 derniers jours glissants)</span></h3>
+                <div id="app-resultats-pas-de-value">
                     <div class="bg-slate-900 border gold-frame rounded-xl p-4 h-12 animate-pulse"></div>
                 </div>`;
 
@@ -547,26 +552,8 @@
         // Lit resultats_recents.json, généré par update_site.py (generer_resultats_recents_json)
         // et déployé comme n'importe quel autre fichier du site via push_to_github() — pas de
         // table Supabase ici : ces résultats déjà clôturés n'existent que dans la base locale.
-        async function renderResultatsRecents() {
-            const app = document.getElementById('app-resultats-recents');
-
-            let payload;
-            try {
-                const resp = await fetch('resultats_recents.json', { cache: 'no-store' });
-                if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
-                payload = await resp.json();
-            } catch (e) {
-                app.innerHTML = `<p class="text-slate-500 text-xs">Fichier resultats_recents.json introuvable ou pas encore généré (nécessite un premier passage du pipeline avec generer_resultats_recents_json).</p>`;
-                return;
-            }
-
-            const data = payload?.resultats || [];
-
-            if (data.length === 0) {
-                app.innerHTML = `<p class="text-slate-500 text-xs">Aucun résultat clôturé sur les 7 derniers jours.</p>`;
-                return;
-            }
-
+        // Construit le tableau desktop + les cartes mobile pour un sous-ensemble de résultats.
+        function construireTableauResultats(data) {
             const rows = data.map(r => `
                 <tr class="border-b border-slate-700">
                     <td class="px-4 py-3 text-xs text-slate-300">${echapperHtml(r.nom_tournoi) || '—'}</td>
@@ -594,9 +581,7 @@
                     </div>
                 </div>`).join('');
 
-            app.innerHTML = `
-                <p class="text-slate-500 text-xs mb-3">${data.length} résultat(s) sur les 7 derniers jours${payload.genere_le ? ` — généré le ${formaterDateCourte(payload.genere_le)}` : ''}</p>
-
+            return `
                 <div class="hidden md:block bg-slate-900 border gold-frame rounded-2xl overflow-hidden">
                     <table class="w-full">
                         <thead class="bg-slate-950">
@@ -617,6 +602,39 @@
                 </div>
 
                 <div class="md:hidden space-y-3">${cartes}</div>`;
+        }
+
+        // Lit resultats_recents.json (généré par update_site.py) et alimente 2 sections
+        // distinctes : Value Bets (VB_valide + VB_suspect) d'un côté, Pas_de_value de l'autre.
+        async function renderResultatsRecents() {
+            const appVb = document.getElementById('app-resultats-vb');
+            const appPasDeValue = document.getElementById('app-resultats-pas-de-value');
+
+            let payload;
+            try {
+                const resp = await fetch('resultats_recents.json', { cache: 'no-store' });
+                if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+                payload = await resp.json();
+            } catch (e) {
+                const messageErreur = `<p class="text-slate-500 text-xs">Fichier resultats_recents.json introuvable ou pas encore généré (nécessite un premier passage du pipeline avec generer_resultats_recents_json).</p>`;
+                appVb.innerHTML = messageErreur;
+                appPasDeValue.innerHTML = messageErreur;
+                return;
+            }
+
+            const data = payload?.resultats || [];
+            const genereLe = payload.genere_le ? ` — généré le ${formaterDateCourte(payload.genere_le)}` : '';
+
+            const dataVb = data.filter(r => r.statut_analyse === 'VB_valide' || r.statut_analyse === 'VB_suspect');
+            const dataPasDeValue = data.filter(r => r.statut_analyse === 'Pas_de_value');
+
+            appVb.innerHTML = dataVb.length === 0
+                ? `<p class="text-slate-500 text-xs">Aucun Value Bet clôturé sur les 7 derniers jours.</p>`
+                : `<p class="text-slate-500 text-xs mb-3">${dataVb.length} résultat(s) sur les 7 derniers jours${genereLe}</p>${construireTableauResultats(dataVb)}`;
+
+            appPasDeValue.innerHTML = dataPasDeValue.length === 0
+                ? `<p class="text-slate-500 text-xs">Aucun résultat "Pas de value" clôturé sur les 7 derniers jours.</p>`
+                : `<p class="text-slate-500 text-xs mb-3">${dataPasDeValue.length} résultat(s) sur les 7 derniers jours${genereLe}</p>${construireTableauResultats(dataPasDeValue)}`;
         }
 
         init();
