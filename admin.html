@@ -162,10 +162,16 @@
                 <h3 class="text-sm font-bold mb-3 text-slate-300"><i class="fa-solid fa-users mr-2 text-yellow-400"></i>Abonnés</h3>
                 <div id="app-abonnes" class="mb-10">
                     <div class="bg-slate-900 border gold-frame rounded-xl p-4 h-12 animate-pulse"></div>
+                </div>
+
+                <h3 class="text-sm font-bold mb-3 text-slate-300"><i class="fa-solid fa-clock-rotate-left mr-2 text-yellow-400"></i>Résultats clôturés <span class="text-slate-500 font-normal text-xs">(7 derniers jours glissants)</span></h3>
+                <div id="app-resultats-recents">
+                    <div class="bg-slate-900 border gold-frame rounded-xl p-4 h-12 animate-pulse"></div>
                 </div>`;
 
             renderAdmin();
             rafraichirClotures();
+            renderResultatsRecents();
         }
 
         function renderLogin() {
@@ -526,6 +532,106 @@
             }
             showToast(nouvelleValeur ? "Accès premium activé." : "Accès premium désactivé.", 'success');
             renderAdmin();
+        }
+
+        function formaterDateCourte(dateStr) {
+            if (!dateStr) return '—';
+            const d = new Date(dateStr);
+            if (isNaN(d.getTime())) return dateStr;
+            return d.toLocaleDateString('fr-FR', { day: '2-digit', month: '2-digit', year: '2-digit' });
+        }
+
+        function badgeStatutResultat(statut) {
+            const styles = {
+                'Gagné': 'bg-emerald-500/20 text-emerald-300',
+                'Perdu': 'bg-red-900/40 text-red-300',
+                'Annulé': 'bg-slate-700/50 text-slate-400'
+            };
+            return `<span class="px-2 py-0.5 rounded-full text-[10px] font-bold whitespace-nowrap ${styles[statut] || 'bg-slate-700/50 text-slate-400'}">${echapperHtml(statut) || '—'}</span>`;
+        }
+
+        function badgeStatutAnalyseSecondaire(statutAnalyse) {
+            const styles = {
+                'VB_valide': 'bg-yellow-500/20 text-yellow-300',
+                'VB_suspect': 'bg-amber-500/20 text-amber-300',
+                'Pas_de_value': 'bg-slate-700/50 text-slate-500'
+            };
+            return `<span class="px-2 py-0.5 rounded-full text-[10px] font-bold whitespace-nowrap ${styles[statutAnalyse] || 'bg-slate-700/50 text-slate-500'}">${echapperHtml(statutAnalyse) || '—'}</span>`;
+        }
+
+        // Lit resultats_recents.json, généré par update_site.py (generer_resultats_recents_json)
+        // et déployé comme n'importe quel autre fichier du site via push_to_github() — pas de
+        // table Supabase ici : ces résultats déjà clôturés n'existent que dans la base locale.
+        async function renderResultatsRecents() {
+            const app = document.getElementById('app-resultats-recents');
+
+            let payload;
+            try {
+                const resp = await fetch('resultats_recents.json', { cache: 'no-store' });
+                if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+                payload = await resp.json();
+            } catch (e) {
+                app.innerHTML = `<p class="text-slate-500 text-xs">Fichier resultats_recents.json introuvable ou pas encore généré (nécessite un premier passage du pipeline avec generer_resultats_recents_json).</p>`;
+                return;
+            }
+
+            const data = payload?.resultats || [];
+
+            if (data.length === 0) {
+                app.innerHTML = `<p class="text-slate-500 text-xs">Aucun résultat clôturé sur les 7 derniers jours.</p>`;
+                return;
+            }
+
+            const rows = data.map(r => `
+                <tr class="border-b border-slate-700">
+                    <td class="px-4 py-3 text-xs text-slate-300">${echapperHtml(r.nom_tournoi) || '—'}</td>
+                    <td class="px-4 py-3 text-xs text-slate-400 whitespace-nowrap">${formaterDateCourte(r.date_match)}</td>
+                    <td class="px-4 py-3 text-xs text-white">${echapperHtml(r.match_intitule) || '—'}</td>
+                    <td class="px-4 py-3 text-xs text-slate-300">${echapperHtml(r.joueur_choisi) || '—'}</td>
+                    <td class="px-4 py-3 text-xs text-center text-slate-300">${r.cote_jouee != null ? Number(r.cote_jouee).toFixed(2) : '—'}</td>
+                    <td class="px-4 py-3 text-xs text-center text-slate-300 whitespace-nowrap">${r.mise ? Number(r.mise).toFixed(2) + '\u00A0€' : '—'}</td>
+                    <td class="px-4 py-3 text-xs text-center font-bold whitespace-nowrap ${Number(r.gain_net) > 0 ? 'text-emerald-400' : Number(r.gain_net) < 0 ? 'text-red-400' : 'text-slate-400'}">${Number(r.gain_net) >= 0 ? '+' : ''}${Number(r.gain_net || 0).toFixed(2)}\u00A0€</td>
+                    <td class="px-4 py-3 text-center">${badgeStatutResultat(r.statut)}</td>
+                    <td class="px-4 py-3 text-center">${badgeStatutAnalyseSecondaire(r.statut_analyse)}</td>
+                </tr>`).join('');
+
+            const cartes = data.map(r => `
+                <div class="bg-slate-900 border gold-frame rounded-2xl p-4">
+                    <div class="flex justify-between items-start gap-2 mb-2">
+                        <span class="text-violet-300 text-[10px] font-bold uppercase">${echapperHtml(r.nom_tournoi) || '—'}</span>
+                        <div class="flex gap-1">${badgeStatutAnalyseSecondaire(r.statut_analyse)}${badgeStatutResultat(r.statut)}</div>
+                    </div>
+                    <h4 class="text-sm font-bold">${echapperHtml(r.match_intitule) || '—'}</h4>
+                    <p class="text-xs text-slate-400 mt-1">${echapperHtml(r.joueur_choisi) || '—'} @ ${r.cote_jouee != null ? Number(r.cote_jouee).toFixed(2) : '—'}${r.mise ? ` — mise ${Number(r.mise).toFixed(2)} €` : ''}</p>
+                    <div class="flex justify-between items-center mt-2">
+                        <p class="text-[10px] text-slate-500">${formaterDateCourte(r.date_match)}</p>
+                        <p class="text-sm font-bold ${Number(r.gain_net) > 0 ? 'text-emerald-400' : Number(r.gain_net) < 0 ? 'text-red-400' : 'text-slate-400'}">${Number(r.gain_net) >= 0 ? '+' : ''}${Number(r.gain_net || 0).toFixed(2)}\u00A0€</p>
+                    </div>
+                </div>`).join('');
+
+            app.innerHTML = `
+                <p class="text-slate-500 text-xs mb-3">${data.length} résultat(s) sur les 7 derniers jours${payload.genere_le ? ` — généré le ${formaterDateCourte(payload.genere_le)}` : ''}</p>
+
+                <div class="hidden md:block bg-slate-900 border gold-frame rounded-2xl overflow-hidden">
+                    <table class="w-full">
+                        <thead class="bg-slate-950">
+                            <tr>
+                                <th class="px-4 py-3 text-left text-[10px] uppercase text-slate-500">Tournoi</th>
+                                <th class="px-4 py-3 text-left text-[10px] uppercase text-slate-500">Date match</th>
+                                <th class="px-4 py-3 text-left text-[10px] uppercase text-slate-500">Match</th>
+                                <th class="px-4 py-3 text-left text-[10px] uppercase text-slate-500">Joueur choisi</th>
+                                <th class="px-4 py-3 text-center text-[10px] uppercase text-slate-500">Cote jouée</th>
+                                <th class="px-4 py-3 text-center text-[10px] uppercase text-slate-500">Mise</th>
+                                <th class="px-4 py-3 text-center text-[10px] uppercase text-slate-500">Gain/Perte</th>
+                                <th class="px-4 py-3 text-center text-[10px] uppercase text-slate-500">Résultat</th>
+                                <th class="px-4 py-3 text-center text-[10px] uppercase text-slate-500">Type</th>
+                            </tr>
+                        </thead>
+                        <tbody>${rows}</tbody>
+                    </table>
+                </div>
+
+                <div class="md:hidden space-y-3">${cartes}</div>`;
         }
 
         init();
