@@ -149,11 +149,6 @@
                     <div class="bg-slate-900 border gold-frame rounded-xl p-4 h-12 animate-pulse"></div>
                 </div>
 
-                <h3 class="text-sm font-bold mb-3 text-slate-300"><i class="fa-solid fa-flag-checkered mr-2 text-yellow-400"></i>Paris en cours à clôturer</h3>
-                <div id="app-clotures" class="mb-10">
-                    <div class="bg-slate-900 border gold-frame rounded-xl p-4 h-12 animate-pulse"></div>
-                </div>
-
                 <h3 class="text-sm font-bold mb-3 text-slate-300"><i class="fa-solid fa-magnifying-glass-chart mr-2 text-yellow-400"></i>Analyses à clôturer <span class="text-slate-500 font-normal text-xs">(VB_suspect et Pas_de_value — les VB_valide se clôturent via leur carte "Prono premium" ci-dessus)</span></h3>
                 <div id="app-clotures-analyses" class="mb-10">
                     <div class="bg-slate-900 border gold-frame rounded-xl p-4 h-12 animate-pulse"></div>
@@ -302,8 +297,8 @@
         // reste, puis alimente les 3 zones (urgences / paris / analyses).
         async function rafraichirClotures() {
             const [resPronos, resAnalyses] = await Promise.all([
-                supabaseClient.from('pronos_premium').select('*').order('created_at', { ascending: false }),
-                supabaseClient.from('analyses_generales').select('*').order('date_match', { ascending: true })
+                supabaseClient.from('pronos_premium').select('*').order('date_match', { ascending: false }),
+                supabaseClient.from('analyses_generales').select('*').order('date_match', { ascending: false })
             ]);
 
             cachePronos = resPronos.data || [];
@@ -319,18 +314,15 @@
             );
 
             const pronosUrgents = cachePronos.filter(p => estMatchAncien(p.date_match));
-            const pronosNormaux = cachePronos.filter(p => !estMatchAncien(p.date_match));
             const analysesUrgentes = cacheAnalyses.filter(a => estMatchAncien(a.date_match));
             const analysesNormales = cacheAnalyses.filter(a => !estMatchAncien(a.date_match));
 
-            renderUrgent(pronosUrgents, analysesUrgentes);
-            renderClotures(pronosNormaux, resPronos.error);
+            renderUrgent(pronosUrgents, analysesUrgentes, resPronos.error);
             renderClotureAnalyses(analysesNormales, resAnalyses.error);
         }
 
         // etiquette : true uniquement dans la section mixte "À clôturer en priorité"
         // (pronos premium + analyses mélangés), pour distinguer un prono premium d'une analyse.
-        // Inutile dans "Paris en cours à clôturer" plus bas, qui ne contient déjà que ça.
         function carteParis(p, etiquette = false) {
             return `
                 <div class="bg-slate-900 border gold-frame rounded-2xl p-4">
@@ -377,36 +369,29 @@
         // Un match n'apparaît qu'ici tant qu'il n'est pas clôturé — il est retiré des
         // listes normales ci-dessous pour éviter de le voir en double et de le
         // clôturer deux fois par erreur.
-        function renderUrgent(pronosUrgents, analysesUrgentes) {
+        function renderUrgent(pronosUrgents, analysesUrgentes, erreurPronos) {
             const app = document.getElementById('app-urgent');
+
+            if (erreurPronos) {
+                app.innerHTML = `<p class="text-red-400 text-xs">Erreur de chargement des pronos premium : ${erreurPronos.message}</p>`;
+                return;
+            }
 
             if (pronosUrgents.length === 0 && analysesUrgentes.length === 0) {
                 app.innerHTML = `<p class="text-slate-500 text-xs">Rien à signaler : tous les matchs d'hier ou avant ont été clôturés automatiquement.</p>`;
                 return;
             }
 
-            const cartes = [
-                ...pronosUrgents.map(p => carteParis(p, true).replace('gold-frame', 'border-2 border-red-600')),
-                ...analysesUrgentes.map(a => carteAnalyse(a).replace('gold-frame', 'border-2 border-red-600'))
-            ].join('');
+            // Fusion + tri par date de match décroissante (le plus récent en haut), les
+            // pronos premium et analyses étant sinon triés séparément par 2 requêtes distinctes.
+            const items = [
+                ...pronosUrgents.map(p => ({ date: p.date_match, html: carteParis(p, true).replace('gold-frame', 'border-2 border-red-600') })),
+                ...analysesUrgentes.map(a => ({ date: a.date_match, html: carteAnalyse(a).replace('gold-frame', 'border-2 border-red-600') }))
+            ].sort((a, b) => new Date(b.date) - new Date(a.date));
+
+            const cartes = items.map(i => i.html).join('');
 
             app.innerHTML = `<div class="grid grid-cols-1 md:grid-cols-2 gap-4">${cartes}</div>`;
-        }
-
-        function renderClotures(data, error) {
-            const app = document.getElementById('app-clotures');
-
-            if (error) {
-                app.innerHTML = `<p class="text-red-400 text-xs">Erreur de chargement : ${error.message}</p>`;
-                return;
-            }
-
-            if (!data || data.length === 0) {
-                app.innerHTML = `<p class="text-slate-500 text-xs">Aucun autre pari en cours pour le moment.</p>`;
-                return;
-            }
-
-            app.innerHTML = `<div class="grid grid-cols-1 md:grid-cols-2 gap-4">${data.map(carteParis).join('')}</div>`;
         }
 
         async function cloturePari(pronosId, parisId, statut, cote, mise) {
@@ -503,7 +488,7 @@
 
             // Symétrique de cloturePari ci-dessus : si l'analyse clôturée est un VB_valide,
             // son prono premium jumeau (même match, même date) est retiré tout de suite de
-            // "Paris en cours à clôturer" pour éviter de le clôturer une 2e fois. La base
+            // "À clôturer en priorité" pour éviter de le clôturer une 2e fois. La base
             // locale, elle, sera synchronisée par appliquer_clotures_admin_analyses().
             const analyseRow = cacheAnalyses.find(a => a.id === rowId);
             if (analyseRow?.statut_analyse === 'VB_valide' && analyseRow?.match_intitule && analyseRow?.date_match) {

@@ -395,7 +395,7 @@
                     const { data, error } = await supabaseClient
                         .from('pronos_premium')
                         .select('*')
-                        .order('created_at', { ascending: false });
+                        .order('date_match', { ascending: false });
 
                     if (error || !data || data.length === 0) {
                         grid.innerHTML = `<p class="col-span-full text-center text-slate-500 text-xs py-8">Aucun accès premium actif sur ce compte, ou aucun pari en cours.</p>`;
@@ -576,7 +576,7 @@
         <section id="analyses-generales" class="scroll-mt-20">
             <div class="text-center mb-6 sm:mb-8">
                 <h2 class="title-glow section-title text-3xl sm:text-4xl font-extrabold">Analyses Générales</h2>
-                <p class="text-slate-400 mt-4 text-xs">Tous les matchs analysés aujourd'hui par le modèle, retenus ou non comme value bet</p>
+                <p class="text-slate-400 mt-4 text-xs">Tous les matchs analysés aujourd'hui par le modèle et écartés comme value bet — les paris retenus (Value Bet) sont à retrouver ci-dessus, dans "Pronostics"</p>
             </div>
 
             <div id="analyses-generales-container">
@@ -611,10 +611,15 @@
                         return;
                     }
 
-                    const { data, error } = await supabaseClient
+                    const { data: dataBrute, error } = await supabaseClient
                         .from('analyses_generales')
                         .select('*')
-                        .order('date_match', { ascending: true });
+                        .order('date_match', { ascending: false });
+
+                    // Les VB_valide ont déjà leur propre carte, avec la mise réellement jouée,
+                    // dans la section "Pronostics" juste au-dessus (table pronos_premium) : on
+                    // évite ici de faire réapparaître le même match une 2e fois.
+                    const data = (dataBrute || []).filter(row => row.statut_analyse !== 'VB_valide');
 
                     if (error || !data || data.length === 0) {
                         container.innerHTML = `<p class="text-slate-500 text-center py-10 text-xs">Aucun accès premium actif sur ce compte, ou aucune analyse enregistrée aujourd'hui.</p>`;
