@@ -1,6 +1,61 @@
 {
-  "genere_le": "2026-08-21T13:53:42.040467",
+  "genere_le": "2026-08-21T22:01:57.470989",
   "resultats": [
+    {
+      "nom_tournoi": "ATP Challenger Sion, Switzerland Men Singles",
+      "date_match": "2026-08-21T15:00:00.000Z",
+      "match_intitule": "Dominic Stricker vs Tommaso Compagnucci",
+      "joueur_choisi": "Dominic Stricker",
+      "cote_jouee": 1.29,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "ATP Challenger Sion, Switzerland Men Singles",
+      "date_match": "2026-08-21T12:00:00.000Z",
+      "match_intitule": "Lorenzo Giustino vs Benjamin Hassan",
+      "joueur_choisi": "Lorenzo Giustino",
+      "cote_jouee": 1.68,
+      "mise": 0.0,
+      "statut": "Annulé",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "Prague, République Tchèque, Simple Messieurs",
+      "date_match": "2026-08-21T11:40:00.000Z",
+      "match_intitule": "Jan Kumstat vs Filip Cristian Jianu",
+      "joueur_choisi": "Jan Kumstat",
+      "cote_jouee": 1.28,
+      "mise": 5.6644106931,
+      "statut": "Gagné",
+      "gain_net": 1.59,
+      "statut_analyse": "VB_suspect"
+    },
+    {
+      "nom_tournoi": "ATP Challenger Roehampton, Great Britain Men Singles",
+      "date_match": "2026-08-21T10:00:00.000Z",
+      "match_intitule": "Anton Matusevich vs Oliver Tarvet",
+      "joueur_choisi": "Oliver Tarvet",
+      "cote_jouee": 1.38,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "ATP Challenger Roehampton, Great Britain Men Singles",
+      "date_match": "2026-08-21T10:00:00.000Z",
+      "match_intitule": "Lui Maxted vs Lucas Poullain",
+      "joueur_choisi": "Lucas Poullain",
+      "cote_jouee": 1.85,
+      "mise": 5.6644106931,
+      "statut": "Gagné",
+      "gain_net": 4.81,
+      "statut_analyse": "VB_suspect"
+    },
     {
       "nom_tournoi": "Cancun, Mexique, Simple Messieurs",
       "date_match": "2026-08-20T20:00:00.000Z",
@@ -11,6 +66,17 @@
       "statut": "Gagné",
       "gain_net": 0.0,
       "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "Cincinnati, USA, Simple Messieurs",
+      "date_match": "2026-08-20T19:00:00.000Z",
+      "match_intitule": "Tommy Paul vs Flavio Cobolli",
+      "joueur_choisi": "Tommy Paul",
+      "cote_jouee": 1.56,
+      "mise": 5.631596356,
+      "statut": "Perdu",
+      "gain_net": -5.631596356,
+      "statut_analyse": "VB_valide"
     },
     {
       "nom_tournoi": "ATP Challenger Quebec City, Canada Men Singles",
