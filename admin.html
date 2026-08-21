@@ -154,7 +154,7 @@
                     <div class="bg-slate-900 border gold-frame rounded-xl p-4 h-12 animate-pulse"></div>
                 </div>
 
-                <h3 class="text-sm font-bold mb-3 text-slate-300"><i class="fa-solid fa-magnifying-glass-chart mr-2 text-yellow-400"></i>Analyses à clôturer <span class="text-slate-500 font-normal text-xs">(toutes — un VB_valide clôturé ici synchronise aussi le pari réel associé)</span></h3>
+                <h3 class="text-sm font-bold mb-3 text-slate-300"><i class="fa-solid fa-magnifying-glass-chart mr-2 text-yellow-400"></i>Analyses à clôturer <span class="text-slate-500 font-normal text-xs">(VB_suspect et Pas_de_value — les VB_valide se clôturent via leur carte "Prono premium" ci-dessus)</span></h3>
                 <div id="app-clotures-analyses" class="mb-10">
                     <div class="bg-slate-900 border gold-frame rounded-xl p-4 h-12 animate-pulse"></div>
                 </div>
@@ -307,7 +307,16 @@
             ]);
 
             cachePronos = resPronos.data || [];
-            cacheAnalyses = resAnalyses.data || [];
+
+            // Un VB_valide qui a déjà sa carte "Prono premium" (même match, même date, dans
+            // pronos_premium) est toujours redondant : clôturer CETTE carte-là suffit à tout
+            // clôturer (cf. cloturePari, qui retire la carte jumelle automatiquement). Pas
+            // besoin d'attendre qu'elle soit clôturée pour la masquer — elle n'a jamais rien
+            // à apporter tant que la carte "Prono premium" existe encore.
+            const clesParisEnCours = new Set(cachePronos.map(p => `${p.match_intitule}|${p.date_match}`));
+            cacheAnalyses = (resAnalyses.data || []).filter(a =>
+                !(a.statut_analyse === 'VB_valide' && clesParisEnCours.has(`${a.match_intitule}|${a.date_match}`))
+            );
 
             const pronosUrgents = cachePronos.filter(p => estMatchAncien(p.date_match));
             const pronosNormaux = cachePronos.filter(p => !estMatchAncien(p.date_match));
