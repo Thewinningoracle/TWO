@@ -1,6 +1,94 @@
 {
-  "genere_le": "2026-08-28T07:05:56.567487",
+  "genere_le": "2026-08-29T07:06:10.542564",
   "resultats": [
+    {
+      "nom_tournoi": "US Open, Simple Messieurs",
+      "date_match": "2026-08-28T15:40:00.000Z",
+      "match_intitule": "Liam Draxl vs Tristan Schoolkate",
+      "joueur_choisi": "Tristan Schoolkate",
+      "cote_jouee": 1.95,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "US Open, Simple Messieurs",
+      "date_match": "2026-08-28T15:35:00.000Z",
+      "match_intitule": "Kei Nishikori vs Rei Sakamoto",
+      "joueur_choisi": "Rei Sakamoto",
+      "cote_jouee": 1.62,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "US Open, Simple Messieurs",
+      "date_match": "2026-08-28T15:00:00.000Z",
+      "match_intitule": "Shintaro Mochizuki vs Francesco Passaro",
+      "joueur_choisi": "Francesco Passaro",
+      "cote_jouee": 1.95,
+      "mise": 5.3773308753,
+      "statut": "Gagné",
+      "gain_net": 5.11,
+      "statut_analyse": "VB_suspect"
+    },
+    {
+      "nom_tournoi": "US Open, Simple Messieurs",
+      "date_match": "2026-08-28T15:00:00.000Z",
+      "match_intitule": "Arthur Gea vs Nishesh Basavareddy",
+      "joueur_choisi": "Arthur Gea",
+      "cote_jouee": 1.6,
+      "mise": 0.0,
+      "statut": "Perdu",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "US Open, Simple Messieurs",
+      "date_match": "2026-08-28T15:00:00.000Z",
+      "match_intitule": "Zsombor Piros vs Christopher O'Connell",
+      "joueur_choisi": "Zsombor Piros",
+      "cote_jouee": 2.55,
+      "mise": 5.3773308753,
+      "statut": "Annulé",
+      "gain_net": 0.0,
+      "statut_analyse": "VB_suspect"
+    },
+    {
+      "nom_tournoi": "US Open, Simple Messieurs",
+      "date_match": "2026-08-28T15:00:00.000Z",
+      "match_intitule": "Lloyd Harris vs Pablo Llamas Ruiz",
+      "joueur_choisi": "Lloyd Harris",
+      "cote_jouee": 1.54,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "ATP Challenger Roehampton 2, Great Britain Men Singles",
+      "date_match": "2026-08-28T10:00:00.000Z",
+      "match_intitule": "Charles Broom vs Oliver Tarvet",
+      "joueur_choisi": "Oliver Tarvet",
+      "cote_jouee": 1.48,
+      "mise": 0.0,
+      "statut": "Perdu",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "Augsbourg, Allemagne, Simple Messieurs",
+      "date_match": "2026-08-28T09:50:00.000Z",
+      "match_intitule": "Cezar Cretu vs Sandro Kopp",
+      "joueur_choisi": "Cezar Cretu",
+      "cote_jouee": 1.98,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
     {
       "nom_tournoi": "Winston Salem, USA, Simple Messieurs",
       "date_match": "2026-08-27T22:30:00.000Z",
@@ -37,6 +125,28 @@
     {
       "nom_tournoi": "US Open, Simple Messieurs",
       "date_match": "2026-08-27T15:00:00.000Z",
+      "match_intitule": "Jacob Fearnley vs Jurij Rodionov",
+      "joueur_choisi": "Jacob Fearnley",
+      "cote_jouee": 1.3,
+      "mise": 0.0,
+      "statut": "Perdu",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "US Open, Simple Messieurs",
+      "date_match": "2026-08-27T15:00:00.000Z",
+      "match_intitule": "Coleman Wong vs Dusan Lajovic",
+      "joueur_choisi": "Dusan Lajovic",
+      "cote_jouee": 2.55,
+      "mise": 5.1138308753,
+      "statut": "Perdu",
+      "gain_net": -5.1138308753,
+      "statut_analyse": "VB_suspect"
+    },
+    {
+      "nom_tournoi": "US Open, Simple Messieurs",
+      "date_match": "2026-08-27T15:00:00.000Z",
       "match_intitule": "Toby Samuel vs Cristian Garin",
       "joueur_choisi": "Toby Samuel",
       "cote_jouee": 1.42,
@@ -44,6 +154,17 @@
       "statut": "Annulé",
       "gain_net": 0.0,
       "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "US Open, Simple Messieurs",
+      "date_match": "2026-08-27T15:00:00.000Z",
+      "match_intitule": "Vilius Gaubas vs Harry Wendelken",
+      "joueur_choisi": "Harry Wendelken",
+      "cote_jouee": 1.97,
+      "mise": 5.1138308753,
+      "statut": "Gagné",
+      "gain_net": 4.96,
+      "statut_analyse": "VB_suspect"
     },
     {
       "nom_tournoi": "ATP Challenger Roehampton 2, Great Britain Men Singles",
@@ -825,138 +946,6 @@
       "statut": "Gagné",
       "gain_net": 0.0,
       "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Cancun, Mexique, Simple Messieurs",
-      "date_match": "2026-08-21T23:30:00.000Z",
-      "match_intitule": "Sebastian Baez vs Coleman Wong",
-      "joueur_choisi": "Coleman Wong",
-      "cote_jouee": 2.15,
-      "mise": 0.0,
-      "statut": "Perdu",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "ATP Challenger Quebec City, Canada Men Singles",
-      "date_match": "2026-08-21T22:30:00.000Z",
-      "match_intitule": "Taro Daniel vs Jacob Fearnley",
-      "joueur_choisi": "Taro Daniel",
-      "cote_jouee": 2.7,
-      "mise": 5.3828308753,
-      "statut": "Gagné",
-      "gain_net": 9.15,
-      "statut_analyse": "VB_suspect"
-    },
-    {
-      "nom_tournoi": "Cancun, Mexique, Simple Messieurs",
-      "date_match": "2026-08-21T22:10:00.000Z",
-      "match_intitule": "Vit Kopriva vs Lloyd Harris",
-      "joueur_choisi": "Lloyd Harris",
-      "cote_jouee": 1.68,
-      "mise": 0.0,
-      "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "ATP Challenger Quebec City, Canada Men Singles",
-      "date_match": "2026-08-21T20:30:00.000Z",
-      "match_intitule": "Zizou Bergs vs Stefanos Sakellaridis",
-      "joueur_choisi": "Zizou Bergs",
-      "cote_jouee": 1.43,
-      "mise": 0.0,
-      "statut": "Perdu",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Cincinnati, USA, Simple Messieurs",
-      "date_match": "2026-08-21T20:00:00.000Z",
-      "match_intitule": "Taylor Fritz vs Brandon Nakashima",
-      "joueur_choisi": "Taylor Fritz",
-      "cote_jouee": 1.49,
-      "mise": 0.0,
-      "statut": "Perdu",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Cancun, Mexique, Simple Messieurs",
-      "date_match": "2026-08-21T20:00:00.000Z",
-      "match_intitule": "Roman Safiullin vs Hubert Hurkacz",
-      "joueur_choisi": "Hubert Hurkacz",
-      "cote_jouee": 1.6,
-      "mise": 0.0,
-      "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "ATP Challenger Kingston, Jamaica Men Singles",
-      "date_match": "2026-08-21T20:00:00.000Z",
-      "match_intitule": "Valentin Royer vs Clement Chidekh",
-      "joueur_choisi": "Valentin Royer",
-      "cote_jouee": 1.54,
-      "mise": 0.0,
-      "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "ATP Challenger Sion, Switzerland Men Singles",
-      "date_match": "2026-08-21T15:00:00.000Z",
-      "match_intitule": "Dominic Stricker vs Tommaso Compagnucci",
-      "joueur_choisi": "Dominic Stricker",
-      "cote_jouee": 1.29,
-      "mise": 0.0,
-      "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "ATP Challenger Sion, Switzerland Men Singles",
-      "date_match": "2026-08-21T12:00:00.000Z",
-      "match_intitule": "Lorenzo Giustino vs Benjamin Hassan",
-      "joueur_choisi": "Lorenzo Giustino",
-      "cote_jouee": 1.68,
-      "mise": 0.0,
-      "statut": "Annulé",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Prague, République Tchèque, Simple Messieurs",
-      "date_match": "2026-08-21T11:40:00.000Z",
-      "match_intitule": "Jan Kumstat vs Filip Cristian Jianu",
-      "joueur_choisi": "Jan Kumstat",
-      "cote_jouee": 1.28,
-      "mise": 5.6644106931,
-      "statut": "Gagné",
-      "gain_net": 1.59,
-      "statut_analyse": "VB_suspect"
-    },
-    {
-      "nom_tournoi": "ATP Challenger Roehampton, Great Britain Men Singles",
-      "date_match": "2026-08-21T10:00:00.000Z",
-      "match_intitule": "Anton Matusevich vs Oliver Tarvet",
-      "joueur_choisi": "Oliver Tarvet",
-      "cote_jouee": 1.38,
-      "mise": 0.0,
-      "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "ATP Challenger Roehampton, Great Britain Men Singles",
-      "date_match": "2026-08-21T10:00:00.000Z",
-      "match_intitule": "Lui Maxted vs Lucas Poullain",
-      "joueur_choisi": "Lucas Poullain",
-      "cote_jouee": 1.85,
-      "mise": 5.6644106931,
-      "statut": "Gagné",
-      "gain_net": 4.81,
-      "statut_analyse": "VB_suspect"
     }
   ]
 }
