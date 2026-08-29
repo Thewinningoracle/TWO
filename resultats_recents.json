@@ -1,6 +1,17 @@
 {
-  "genere_le": "2026-08-29T07:06:10.542564",
+  "genere_le": "2026-08-30T00:04:31.224692",
   "resultats": [
+    {
+      "nom_tournoi": "Winston Salem, USA, Simple Messieurs",
+      "date_match": "2026-08-29T20:00:00.000Z",
+      "match_intitule": "Arthur Fery vs Ignacio Buse",
+      "joueur_choisi": "Arthur Fery",
+      "cote_jouee": 1.81,
+      "mise": 0.0,
+      "statut": "Perdu",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
     {
       "nom_tournoi": "US Open, Simple Messieurs",
       "date_match": "2026-08-28T15:40:00.000Z",
@@ -931,17 +942,6 @@
       "match_intitule": "Sho Shimabukuro vs Miomir Kecmanovic",
       "joueur_choisi": "Miomir Kecmanovic",
       "cote_jouee": 1.4,
-      "mise": 0.0,
-      "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Cincinnati, USA, Simple Messieurs",
-      "date_match": "2026-08-22T17:30:00.000Z",
-      "match_intitule": "Flavio Cobolli vs Arthur Fils",
-      "joueur_choisi": "Arthur Fils",
-      "cote_jouee": 1.36,
       "mise": 0.0,
       "statut": "Gagné",
       "gain_net": 0.0,
