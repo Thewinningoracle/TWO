@@ -1,6 +1,160 @@
 {
-  "genere_le": "2026-09-11T07:06:44.733867",
+  "genere_le": "2026-09-12T07:08:14.563536",
   "resultats": [
+    {
+      "nom_tournoi": "Séville, Espagne, Simple Messieurs",
+      "date_match": "2026-09-11T16:00:00.000Z",
+      "match_intitule": "Facundo Diaz Acosta vs Sebastian Ofner",
+      "joueur_choisi": "Facundo Diaz Acosta",
+      "cote_jouee": 1.63,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "Gênes, Italie, Simple Messieurs",
+      "date_match": "2026-09-11T13:10:00.000Z",
+      "match_intitule": "Laslo Djere vs Stefanos Sakellaridis",
+      "joueur_choisi": "Laslo Djere",
+      "cote_jouee": 1.46,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "ATP Challenger Tulln, Austria Men Singles",
+      "date_match": "2026-09-11T12:45:00.000Z",
+      "match_intitule": "Joao Lucas Reis Da Silva vs Lukas Neumayer",
+      "joueur_choisi": "Lukas Neumayer",
+      "cote_jouee": 1.32,
+      "mise": 0.0,
+      "statut": "Perdu",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "ATP Challenger Tulln, Austria Men Singles",
+      "date_match": "2026-09-11T11:10:00.000Z",
+      "match_intitule": "Zdenek Kolar vs Alex Barrena",
+      "joueur_choisi": "Zdenek Kolar",
+      "cote_jouee": 1.61,
+      "mise": 0.0,
+      "statut": "Perdu",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "Cassis, France, Simple Messieurs",
+      "date_match": "2026-09-11T10:50:00.000Z",
+      "match_intitule": "Titouan Droguet vs Daniil Glinka",
+      "joueur_choisi": "Titouan Droguet",
+      "cote_jouee": 1.35,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "ATP Challenger Tulln, Austria Men Singles",
+      "date_match": "2026-09-11T10:00:00.000Z",
+      "match_intitule": "Mika Brunold vs Gustavo Heide",
+      "joueur_choisi": "Gustavo Heide",
+      "cote_jouee": 1.4,
+      "mise": 0.0,
+      "statut": "Perdu",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "ATP Challenger Tulln, Austria Men Singles",
+      "date_match": "2026-09-11T10:00:00.000Z",
+      "match_intitule": "Matias Soto vs Vitaliy Sachko",
+      "joueur_choisi": "Vitaliy Sachko",
+      "cote_jouee": 1.38,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "Shanghai, Chine, Simple Messieurs",
+      "date_match": "2026-09-11T09:30:00.000Z",
+      "match_intitule": "Omar Jasika vs Marat Sharipov",
+      "joueur_choisi": "Marat Sharipov",
+      "cote_jouee": 1.38,
+      "mise": 5.2563308753,
+      "statut": "Gagné",
+      "gain_net": 2.0,
+      "statut_analyse": "VB_valide"
+    },
+    {
+      "nom_tournoi": "ATP Challenger Istanbul 3, Turkiye Men Singles",
+      "date_match": "2026-09-11T09:10:00.000Z",
+      "match_intitule": "Francesco Maestrelli vs Maks Kasnikowski",
+      "joueur_choisi": "Francesco Maestrelli",
+      "cote_jouee": 2.2,
+      "mise": 0.0,
+      "statut": "Perdu",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "ATP Challenger Istanbul 3, Turkiye Men Singles",
+      "date_match": "2026-09-11T09:10:00.000Z",
+      "match_intitule": "Yanki Erel vs Jay Friend",
+      "joueur_choisi": "Jay Friend",
+      "cote_jouee": 1.66,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "Cassis, France, Simple Messieurs",
+      "date_match": "2026-09-11T08:30:00.000Z",
+      "match_intitule": "Ugo Blanchet vs Daniel Masur",
+      "joueur_choisi": "Ugo Blanchet",
+      "cote_jouee": 1.35,
+      "mise": 0.0,
+      "statut": "Perdu",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "Shanghai, Chine, Simple Messieurs",
+      "date_match": "2026-09-11T08:10:00.000Z",
+      "match_intitule": "Pavel Kotov vs Alexis Galarneau",
+      "joueur_choisi": "Pavel Kotov",
+      "cote_jouee": 2.28,
+      "mise": 5.2563308753,
+      "statut": "Gagné",
+      "gain_net": 6.73,
+      "statut_analyse": "VB_suspect"
+    },
+    {
+      "nom_tournoi": "ATP Challenger Istanbul 3, Turkiye Men Singles",
+      "date_match": "2026-09-11T08:00:00.000Z",
+      "match_intitule": "Max Basing vs Edas Butvilas",
+      "joueur_choisi": "Edas Butvilas",
+      "cote_jouee": 1.43,
+      "mise": 0.0,
+      "statut": "Perdu",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "ATP Challenger Istanbul 3, Turkiye Men Singles",
+      "date_match": "2026-09-11T08:00:00.000Z",
+      "match_intitule": "Dimitar Kuzmanov vs Harold Mayot",
+      "joueur_choisi": "Dimitar Kuzmanov",
+      "cote_jouee": 2.48,
+      "mise": 5.2563308753,
+      "statut": "Perdu",
+      "gain_net": -5.26,
+      "statut_analyse": "VB_valide"
+    },
     {
       "nom_tournoi": "US Open, Simple Messieurs",
       "date_match": "2026-09-09T18:00:00.000Z",
@@ -121,28 +275,6 @@
       "statut": "Gagné",
       "gain_net": 7.3,
       "statut_analyse": "VB_suspect"
-    },
-    {
-      "nom_tournoi": "US Open, Simple Messieurs",
-      "date_match": "2026-09-04T20:30:00.000Z",
-      "match_intitule": "Alex Michelsen vs Daniel Merida",
-      "joueur_choisi": "Alex Michelsen",
-      "cote_jouee": 1.58,
-      "mise": 0.0,
-      "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "US Open, Simple Messieurs",
-      "date_match": "2026-09-04T16:10:00.000Z",
-      "match_intitule": "Daniil Medvedev vs Arthur Rinderknech",
-      "joueur_choisi": "Daniil Medvedev",
-      "cote_jouee": 1.33,
-      "mise": 0.0,
-      "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
     }
   ]
 }
