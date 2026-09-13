@@ -1,6 +1,105 @@
 {
-  "genere_le": "2026-09-12T07:08:14.563536",
+  "genere_le": "2026-09-13T07:06:45.271317",
   "resultats": [
+    {
+      "nom_tournoi": "Séville, Espagne, Simple Messieurs",
+      "date_match": "2026-09-12T18:10:00.000Z",
+      "match_intitule": "Max Alcala Gurri vs Dusan Lajovic",
+      "joueur_choisi": "Dusan Lajovic",
+      "cote_jouee": 1.43,
+      "mise": 0.0,
+      "statut": "Annulé",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "Gênes, Italie, Simple Messieurs",
+      "date_match": "2026-09-12T18:00:00.000Z",
+      "match_intitule": "Thiago Seyboth Wild vs Matej Dodig",
+      "joueur_choisi": "Thiago Seyboth Wild",
+      "cote_jouee": 1.8,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "Séville, Espagne, Simple Messieurs",
+      "date_match": "2026-09-12T17:00:00.000Z",
+      "match_intitule": "Jaume Munar vs Facundo Diaz Acosta",
+      "joueur_choisi": "Facundo Diaz Acosta",
+      "cote_jouee": 1.84,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "Cassis, France, Simple Messieurs",
+      "date_match": "2026-09-12T12:00:00.000Z",
+      "match_intitule": "Titouan Droguet vs Nicolai Budkov Kjaer",
+      "joueur_choisi": "Titouan Droguet",
+      "cote_jouee": 1.55,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "ATP Challenger Tulln, Austria Men Singles",
+      "date_match": "2026-09-12T11:30:00.000Z",
+      "match_intitule": "Joao Lucas Reis Da Silva vs Alex Barrena",
+      "joueur_choisi": "Joao Lucas Reis Da Silva",
+      "cote_jouee": 1.55,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "Shanghai, Chine, Simple Messieurs",
+      "date_match": "2026-09-12T10:10:00.000Z",
+      "match_intitule": "Pavel Kotov vs Marat Sharipov",
+      "joueur_choisi": "Pavel Kotov",
+      "cote_jouee": 1.94,
+      "mise": 0.0,
+      "statut": "Perdu",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "ATP Challenger Istanbul 3, Turkiye Men Singles",
+      "date_match": "2026-09-12T09:30:00.000Z",
+      "match_intitule": "Maks Kasnikowski vs Jay Friend",
+      "joueur_choisi": "Jay Friend",
+      "cote_jouee": 1.9,
+      "mise": 5.2563308753,
+      "statut": "Gagné",
+      "gain_net": 4.73,
+      "statut_analyse": "VB_suspect"
+    },
+    {
+      "nom_tournoi": "ATP Challenger Tulln, Austria Men Singles",
+      "date_match": "2026-09-12T09:00:00.000Z",
+      "match_intitule": "Vitaliy Sachko vs Mika Brunold",
+      "joueur_choisi": "Vitaliy Sachko",
+      "cote_jouee": 2.1,
+      "mise": 0.0,
+      "statut": "Perdu",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "ATP Challenger Istanbul 3, Turkiye Men Singles",
+      "date_match": "2026-09-12T08:00:00.000Z",
+      "match_intitule": "Harold Mayot vs Max Basing",
+      "joueur_choisi": "Harold Mayot",
+      "cote_jouee": 1.35,
+      "mise": 0.0,
+      "statut": "Perdu",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
     {
       "nom_tournoi": "Séville, Espagne, Simple Messieurs",
       "date_match": "2026-09-11T16:00:00.000Z",
@@ -209,72 +308,6 @@
       "statut": "Gagné",
       "gain_net": 0.0,
       "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "US Open, Simple Messieurs",
-      "date_match": "2026-09-05T20:30:00.000Z",
-      "match_intitule": "Zizou Bergs vs Botic Van De Zandschulp",
-      "joueur_choisi": "Botic Van De Zandschulp",
-      "cote_jouee": 1.46,
-      "mise": 0.0,
-      "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "US Open, Simple Messieurs",
-      "date_match": "2026-09-05T17:20:00.000Z",
-      "match_intitule": "Michael Zheng vs Arthur Gea",
-      "joueur_choisi": "Arthur Gea",
-      "cote_jouee": 2.2,
-      "mise": 0.0,
-      "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "US Open, Simple Messieurs",
-      "date_match": "2026-09-05T17:20:00.000Z",
-      "match_intitule": "Karen Khachanov vs Benjamin Bonzi",
-      "joueur_choisi": "Karen Khachanov",
-      "cote_jouee": 1.48,
-      "mise": 0.0,
-      "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "US Open, Simple Messieurs",
-      "date_match": "2026-09-05T16:10:00.000Z",
-      "match_intitule": "Alexander Blockx vs Flavio Cobolli",
-      "joueur_choisi": "Alexander Blockx",
-      "cote_jouee": 1.93,
-      "mise": 0.0,
-      "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Côme, Italie, Simple Messieurs",
-      "date_match": "2026-09-05T14:00:00.000Z",
-      "match_intitule": "Juan Pablo Varillas vs Jay Clarke",
-      "joueur_choisi": "Juan Pablo Varillas",
-      "cote_jouee": 1.85,
-      "mise": 0.0,
-      "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Manacor, Majorque, Espagne, Simple Messieurs",
-      "date_match": "2026-09-05T13:00:00.000Z",
-      "match_intitule": "Mark Lajal vs Felix Balshaw",
-      "joueur_choisi": "Felix Balshaw",
-      "cote_jouee": 2.48,
-      "mise": 4.9313308753,
-      "statut": "Gagné",
-      "gain_net": 7.3,
-      "statut_analyse": "VB_suspect"
     }
   ]
 }
