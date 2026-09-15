@@ -1,6 +1,83 @@
 {
-  "genere_le": "2026-09-14T07:06:40.061796",
+  "genere_le": "2026-09-15T07:06:45.285418",
   "resultats": [
+    {
+      "nom_tournoi": "Szczecin, Pologne, Simple Messieurs",
+      "date_match": "2026-09-14T15:00:00.000Z",
+      "match_intitule": "Thiago Monteiro vs Stefano Travaglia",
+      "joueur_choisi": "Thiago Monteiro",
+      "cote_jouee": 1.87,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "Rennes, France, Simple Messieurs",
+      "date_match": "2026-09-14T14:00:00.000Z",
+      "match_intitule": "David Jorda Sanchis vs Lucas Poullain",
+      "joueur_choisi": "Lucas Poullain",
+      "cote_jouee": 1.38,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "Biella, Italie, Simple Messieurs",
+      "date_match": "2026-09-14T12:10:00.000Z",
+      "match_intitule": "Petr Brunclik vs Filippo Romano",
+      "joueur_choisi": "Petr Brunclik",
+      "cote_jouee": 1.57,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "Biella, Italie, Simple Messieurs",
+      "date_match": "2026-09-14T11:30:00.000Z",
+      "match_intitule": "Mika Petkovic vs Felix Gill",
+      "joueur_choisi": "Felix Gill",
+      "cote_jouee": 1.49,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "Biella, Italie, Simple Messieurs",
+      "date_match": "2026-09-14T11:00:00.000Z",
+      "match_intitule": "Alejandro Moro Canas vs Geoffrey Blancaneaux",
+      "joueur_choisi": "Alejandro Moro Canas",
+      "cote_jouee": 1.33,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "Guangzhou, Chine, Simple Messieurs",
+      "date_match": "2026-09-14T09:30:00.000Z",
+      "match_intitule": "Elias Ymer vs Semen Pankin",
+      "joueur_choisi": "Elias Ymer",
+      "cote_jouee": 1.43,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "Rennes, France, Simple Messieurs",
+      "date_match": "2026-09-14T09:00:00.000Z",
+      "match_intitule": "Max Schoenhaus vs Patrick Brady",
+      "joueur_choisi": "Max Schoenhaus",
+      "cote_jouee": 1.65,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
     {
       "nom_tournoi": "Szczecin, Pologne, Simple Messieurs",
       "date_match": "2026-09-14T08:30:00.000Z",
@@ -9,6 +86,17 @@
       "cote_jouee": 1.28,
       "mise": 0.0,
       "statut": "Annulé",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "US Open, Simple Messieurs",
+      "date_match": "2026-09-13T18:00:00.000Z",
+      "match_intitule": "Alexander Zverev vs Ben Shelton",
+      "joueur_choisi": "Alexander Zverev",
+      "cote_jouee": 1.68,
+      "mise": 0.0,
+      "statut": "Gagné",
       "gain_net": 0.0,
       "statut_analyse": "Pas_de_value"
     },
@@ -284,28 +372,6 @@
       "cote_jouee": 1.57,
       "mise": 0.0,
       "statut": "Annulé",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "US Open, Simple Messieurs",
-      "date_match": "2026-09-07T20:00:00.000Z",
-      "match_intitule": "Karen Khachanov vs Learner Tien",
-      "joueur_choisi": "Karen Khachanov",
-      "cote_jouee": 2.38,
-      "mise": 4.7105174239,
-      "statut": "Gagné",
-      "gain_net": 6.5,
-      "statut_analyse": "VB_valide"
-    },
-    {
-      "nom_tournoi": "US Open, Simple Messieurs",
-      "date_match": "2026-09-07T18:30:00.000Z",
-      "match_intitule": "Arthur Gea vs Botic Van De Zandschulp",
-      "joueur_choisi": "Botic Van De Zandschulp",
-      "cote_jouee": 1.6,
-      "mise": 0.0,
-      "statut": "Gagné",
       "gain_net": 0.0,
       "statut_analyse": "Pas_de_value"
     }
