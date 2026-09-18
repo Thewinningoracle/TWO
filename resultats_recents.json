@@ -1,6 +1,72 @@
 {
-  "genere_le": "2026-09-17T07:06:41.055945",
+  "genere_le": "2026-09-18T07:08:53.858393",
   "resultats": [
+    {
+      "nom_tournoi": "Rennes, France, Simple Messieurs",
+      "date_match": "2026-09-17T18:10:00.000Z",
+      "match_intitule": "Borna Gojo vs Matteo Martineau",
+      "joueur_choisi": "Borna Gojo",
+      "cote_jouee": 1.3,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "Biella, Italie, Simple Messieurs",
+      "date_match": "2026-09-17T11:10:00.000Z",
+      "match_intitule": "Alex Barrena vs Samuele Pieri",
+      "joueur_choisi": "Alex Barrena",
+      "cote_jouee": 1.73,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "Biella, Italie, Simple Messieurs",
+      "date_match": "2026-09-17T10:00:00.000Z",
+      "match_intitule": "Francesco Forti vs Mika Brunold",
+      "joueur_choisi": "Mika Brunold",
+      "cote_jouee": 1.35,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "Rennes, France, Simple Messieurs",
+      "date_match": "2026-09-17T09:00:00.000Z",
+      "match_intitule": "Anton Matusevich vs Tristan Schoolkate",
+      "joueur_choisi": "Tristan Schoolkate",
+      "cote_jouee": 1.57,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "Biella, Italie, Simple Messieurs",
+      "date_match": "2026-09-17T08:00:00.000Z",
+      "match_intitule": "Tommaso Compagnucci vs Juan Cruz Martin Manzano",
+      "joueur_choisi": "Tommaso Compagnucci",
+      "cote_jouee": 1.75,
+      "mise": 5.0933308753,
+      "statut": "Perdu",
+      "gain_net": -5.09,
+      "statut_analyse": "VB_suspect"
+    },
+    {
+      "nom_tournoi": "Guangzhou, Chine, Simple Messieurs",
+      "date_match": "2026-09-17T07:45:00.000Z",
+      "match_intitule": "Bernard Tomic vs Jake Delaney",
+      "joueur_choisi": "Jake Delaney",
+      "cote_jouee": 3.5,
+      "mise": 5.0933308753,
+      "statut": "Perdu",
+      "gain_net": -5.09,
+      "statut_analyse": "VB_suspect"
+    },
     {
       "nom_tournoi": "Szczecin, Pologne, Simple Messieurs",
       "date_match": "2026-09-16T17:00:00.000Z",
