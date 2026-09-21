@@ -1,6 +1,28 @@
 {
-  "genere_le": "2026-09-20T07:06:25.509823",
+  "genere_le": "2026-09-21T07:06:30.251122",
   "resultats": [
+    {
+      "nom_tournoi": "Guangzhou, Chine, Simple Messieurs",
+      "date_match": "2026-09-20T11:00:00.000Z",
+      "match_intitule": "Pavel Kotov vs Marat Sharipov",
+      "joueur_choisi": "Marat Sharipov",
+      "cote_jouee": 1.86,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "Biella, Italie, Simple Messieurs",
+      "date_match": "2026-09-20T09:30:00.000Z",
+      "match_intitule": "Carlo Alberto Caniato vs Alejandro Moro Canas",
+      "joueur_choisi": "Alejandro Moro Canas",
+      "cote_jouee": 1.77,
+      "mise": 0.0,
+      "statut": "Perdu",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
     {
       "nom_tournoi": "Biella, Italie, Simple Messieurs",
       "date_match": "2026-09-19T12:40:00.000Z",
@@ -658,28 +680,6 @@
       "cote_jouee": 1.28,
       "mise": 0.0,
       "statut": "Annulé",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "US Open, Simple Messieurs",
-      "date_match": "2026-09-13T18:00:00.000Z",
-      "match_intitule": "Alexander Zverev vs Ben Shelton",
-      "joueur_choisi": "Alexander Zverev",
-      "cote_jouee": 1.68,
-      "mise": 0.0,
-      "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Shanghai, Chine, Simple Messieurs",
-      "date_match": "2026-09-13T08:00:00.000Z",
-      "match_intitule": "Ilya Ivashka vs Marat Sharipov",
-      "joueur_choisi": "Marat Sharipov",
-      "cote_jouee": 1.88,
-      "mise": 0.0,
-      "statut": "Perdu",
       "gain_net": 0.0,
       "statut_analyse": "Pas_de_value"
     }
