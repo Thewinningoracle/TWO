@@ -1,6 +1,39 @@
 {
-  "genere_le": "2026-09-23T07:06:33.681799",
+  "genere_le": "2026-09-24T07:06:56.687911",
   "resultats": [
+    {
+      "nom_tournoi": "ATP Hangzhou, China Men Singles",
+      "date_match": "2026-09-23T11:30:00.000Z",
+      "match_intitule": "Valentin Royer vs Adam Walton",
+      "joueur_choisi": "Adam Walton",
+      "cote_jouee": 1.91,
+      "mise": 0.0,
+      "statut": "Perdu",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "ATP Hangzhou, China Men Singles",
+      "date_match": "2026-09-23T08:00:00.000Z",
+      "match_intitule": "Aleksandar Vukic vs Kyrian Jacquet",
+      "joueur_choisi": "Kyrian Jacquet",
+      "cote_jouee": 1.87,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "ATP Challenger Plovdiv 4, Bulgaria Men Singles",
+      "date_match": "2026-09-23T08:00:00.000Z",
+      "match_intitule": "Oriol Roca Batalla vs Calvin Hemery",
+      "joueur_choisi": "Oriol Roca Batalla",
+      "cote_jouee": 1.58,
+      "mise": 0.0,
+      "statut": "Perdu",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
     {
       "nom_tournoi": "Buenos Aires II, ARG, Simple Messieurs",
       "date_match": "2026-09-22T21:30:00.000Z",
@@ -97,6 +130,17 @@
       "cote_jouee": 1.48,
       "mise": 0.0,
       "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "ATP Challenger Saint Tropez, France Men Singles",
+      "date_match": "2026-09-22T12:40:00.000Z",
+      "match_intitule": "Murphy Cassone vs Clement Tabur",
+      "joueur_choisi": "Clement Tabur",
+      "cote_jouee": 1.86,
+      "mise": 0.0,
+      "statut": "Perdu",
       "gain_net": 0.0,
       "statut_analyse": "Pas_de_value"
     },
@@ -579,149 +623,6 @@
       "match_intitule": "Bernard Tomic vs Jake Delaney",
       "joueur_choisi": "Jake Delaney",
       "cote_jouee": 3.5,
-      "mise": 5.0933308753,
-      "statut": "Perdu",
-      "gain_net": -5.09,
-      "statut_analyse": "VB_suspect"
-    },
-    {
-      "nom_tournoi": "Szczecin, Pologne, Simple Messieurs",
-      "date_match": "2026-09-16T17:00:00.000Z",
-      "match_intitule": "Laslo Djere vs Luka Mikrut",
-      "joueur_choisi": "Laslo Djere",
-      "cote_jouee": 1.36,
-      "mise": 0.0,
-      "statut": "Annulé",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Rennes, France, Simple Messieurs",
-      "date_match": "2026-09-16T17:00:00.000Z",
-      "match_intitule": "Lucas Poullain vs Clement Chidekh",
-      "joueur_choisi": "Clement Chidekh",
-      "cote_jouee": 1.38,
-      "mise": 0.0,
-      "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Tiburon, USA, Simple Messieurs",
-      "date_match": "2026-09-16T17:00:00.000Z",
-      "match_intitule": "Tristan Boyer vs Abdullah Shelbayh",
-      "joueur_choisi": "Abdullah Shelbayh",
-      "cote_jouee": 2.33,
-      "mise": 0.0,
-      "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Biella, Italie, Simple Messieurs",
-      "date_match": "2026-09-16T12:30:00.000Z",
-      "match_intitule": "Oriol Roca Batalla vs Stefano Napolitano",
-      "joueur_choisi": "Oriol Roca Batalla",
-      "cote_jouee": 1.85,
-      "mise": 4.9938792673,
-      "statut": "Gagné",
-      "gain_net": 4.24,
-      "statut_analyse": "VB_valide"
-    },
-    {
-      "nom_tournoi": "Rennes, France, Simple Messieurs",
-      "date_match": "2026-09-16T12:30:00.000Z",
-      "match_intitule": "Harold Mayot vs Murphy Cassone",
-      "joueur_choisi": "Murphy Cassone",
-      "cote_jouee": 2.45,
-      "mise": 0.0,
-      "statut": "Annulé",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Szczecin, Pologne, Simple Messieurs",
-      "date_match": "2026-09-16T12:10:00.000Z",
-      "match_intitule": "Tom Gentzsch vs Martin Krumich",
-      "joueur_choisi": "Tom Gentzsch",
-      "cote_jouee": 1.5,
-      "mise": 0.0,
-      "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Szczecin, Pologne, Simple Messieurs",
-      "date_match": "2026-09-16T11:00:00.000Z",
-      "match_intitule": "Vitaliy Sachko vs Thiago Monteiro",
-      "joueur_choisi": "Thiago Monteiro",
-      "cote_jouee": 1.86,
-      "mise": 0.0,
-      "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Rennes, France, Simple Messieurs",
-      "date_match": "2026-09-16T10:10:00.000Z",
-      "match_intitule": "Hamish Stewart vs Daniel Rincon",
-      "joueur_choisi": "Hamish Stewart",
-      "cote_jouee": 2.65,
-      "mise": 5.0933308753,
-      "statut": "Annulé",
-      "gain_net": 0.0,
-      "statut_analyse": "VB_suspect"
-    },
-    {
-      "nom_tournoi": "Guangzhou, Chine, Simple Messieurs",
-      "date_match": "2026-09-16T10:00:00.000Z",
-      "match_intitule": "Marat Sharipov vs Lloyd Harris",
-      "joueur_choisi": "Lloyd Harris",
-      "cote_jouee": 1.34,
-      "mise": 0.0,
-      "statut": "Perdu",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Rennes, France, Simple Messieurs",
-      "date_match": "2026-09-16T09:00:00.000Z",
-      "match_intitule": "Max Schoenhaus vs Matteo Martineau",
-      "joueur_choisi": "Max Schoenhaus",
-      "cote_jouee": 1.5,
-      "mise": 0.0,
-      "statut": "Perdu",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Biella, Italie, Simple Messieurs",
-      "date_match": "2026-09-16T08:00:00.000Z",
-      "match_intitule": "Gerard Campana Lee vs Felix Gill",
-      "joueur_choisi": "Felix Gill",
-      "cote_jouee": 1.41,
-      "mise": 0.0,
-      "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Biella, Italie, Simple Messieurs",
-      "date_match": "2026-09-16T08:00:00.000Z",
-      "match_intitule": "Jay Clarke vs Petr Brunclik",
-      "joueur_choisi": "Jay Clarke",
-      "cote_jouee": 1.8,
-      "mise": 0.0,
-      "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Guangzhou, Chine, Simple Messieurs",
-      "date_match": "2026-09-16T07:30:00.000Z",
-      "match_intitule": "Elias Ymer vs Luca Castelnuovo",
-      "joueur_choisi": "Luca Castelnuovo",
-      "cote_jouee": 2.8,
       "mise": 5.0933308753,
       "statut": "Perdu",
       "gain_net": -5.09,
