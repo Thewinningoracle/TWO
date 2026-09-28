@@ -1,6 +1,94 @@
 {
-  "genere_le": "2026-09-27T07:06:45.080767",
+  "genere_le": "2026-09-28T07:06:44.561751",
   "resultats": [
+    {
+      "nom_tournoi": "Buenos Aires II, ARG, Simple Messieurs",
+      "date_match": "2026-09-27T16:00:00.000Z",
+      "match_intitule": "Alex Barrena vs Facundo Mena",
+      "joueur_choisi": "Facundo Mena",
+      "cote_jouee": 1.79,
+      "mise": 0.0,
+      "statut": "Perdu",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "ATP Challenger Saint Tropez, France Men Singles",
+      "date_match": "2026-09-27T12:30:00.000Z",
+      "match_intitule": "Titouan Droguet vs Harold Mayot",
+      "joueur_choisi": "Titouan Droguet",
+      "cote_jouee": 1.58,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "ATP Challenger Plovdiv 4, Bulgaria Men Singles",
+      "date_match": "2026-09-27T09:00:00.000Z",
+      "match_intitule": "Max Alcala Gurri vs Jonas Forejtek",
+      "joueur_choisi": "Max Alcala Gurri",
+      "cote_jouee": 1.44,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "Chengdu, Chine, Simple Messieurs",
+      "date_match": "2026-09-27T08:30:00.000Z",
+      "match_intitule": "Lloyd Harris vs Hubert Hurkacz",
+      "joueur_choisi": "Hubert Hurkacz",
+      "cote_jouee": 1.52,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "ATP Hangzhou, China Men Singles",
+      "date_match": "2026-09-27T07:50:00.000Z",
+      "match_intitule": "Roman Safiullin vs Yunchaokete Bu",
+      "joueur_choisi": "Roman Safiullin",
+      "cote_jouee": 1.91,
+      "mise": 5.3033308753,
+      "statut": "Gagné",
+      "gain_net": 4.83,
+      "statut_analyse": "VB_valide"
+    },
+    {
+      "nom_tournoi": "Chengdu, Chine, Simple Messieurs",
+      "date_match": "2026-09-27T07:20:00.000Z",
+      "match_intitule": "Adrian Mannarino vs Denis Shapovalov",
+      "joueur_choisi": "Denis Shapovalov",
+      "cote_jouee": 1.36,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "ATP Hangzhou, China Men Singles",
+      "date_match": "2026-09-27T05:30:00.000Z",
+      "match_intitule": "Fabian Marozsan vs Kyrian Jacquet",
+      "joueur_choisi": "Fabian Marozsan",
+      "cote_jouee": 1.78,
+      "mise": 0.0,
+      "statut": "Perdu",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "Chengdu, Chine, Simple Messieurs",
+      "date_match": "2026-09-27T03:30:00.000Z",
+      "match_intitule": "Jenson Brooksby vs Nikoloz Basilashvili",
+      "joueur_choisi": "Jenson Brooksby",
+      "cote_jouee": 1.78,
+      "mise": 0.0,
+      "statut": "Perdu",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
     {
       "nom_tournoi": "Buenos Aires II, ARG, Simple Messieurs",
       "date_match": "2026-09-26T18:20:00.000Z",
@@ -68,6 +156,17 @@
       "statut_analyse": "Pas_de_value"
     },
     {
+      "nom_tournoi": "ATP Hangzhou, China Men Singles",
+      "date_match": "2026-09-26T11:30:00.000Z",
+      "match_intitule": "Coleman Wong vs Adolfo Daniel Vallejo",
+      "joueur_choisi": "Coleman Wong",
+      "cote_jouee": 1.55,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
       "nom_tournoi": "ATP Challenger Plovdiv 4, Bulgaria Men Singles",
       "date_match": "2026-09-26T11:00:00.000Z",
       "match_intitule": "Max Alcala Gurri vs Carlos Taberner",
@@ -97,6 +196,17 @@
       "cote_jouee": 1.72,
       "mise": 0.0,
       "statut": "Perdu",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "Chengdu, Chine, Simple Messieurs",
+      "date_match": "2026-09-26T06:10:00.000Z",
+      "match_intitule": "Federico Cina vs Alexandre Muller",
+      "joueur_choisi": "Alexandre Muller",
+      "cote_jouee": 1.75,
+      "mise": 0.0,
+      "statut": "Gagné",
       "gain_net": 0.0,
       "statut_analyse": "Pas_de_value"
     },
@@ -332,6 +442,17 @@
       "statut_analyse": "VB_suspect"
     },
     {
+      "nom_tournoi": "ATP Challenger San Diego 2, USA, Men Singles",
+      "date_match": "2026-09-24T19:00:00.000Z",
+      "match_intitule": "Timo Legout vs Colton Smith",
+      "joueur_choisi": "Timo Legout",
+      "cote_jouee": 2.08,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
       "nom_tournoi": "Buenos Aires II, ARG, Simple Messieurs",
       "date_match": "2026-09-24T18:40:00.000Z",
       "match_intitule": "Juan Pablo Ficovich vs Alex Barrena",
@@ -403,6 +524,17 @@
       "match_intitule": "Jonas Forejtek vs Maxime Chazal",
       "joueur_choisi": "Jonas Forejtek",
       "cote_jouee": 1.5,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "ATP Hangzhou, China Men Singles",
+      "date_match": "2026-09-24T11:30:00.000Z",
+      "match_intitule": "Zhizhen Zhang vs Coleman Wong",
+      "joueur_choisi": "Coleman Wong",
+      "cote_jouee": 1.62,
       "mise": 0.0,
       "statut": "Gagné",
       "gain_net": 0.0,
@@ -502,6 +634,17 @@
       "match_intitule": "Juncheng Shang vs Adrian Mannarino",
       "joueur_choisi": "Juncheng Shang",
       "cote_jouee": 1.43,
+      "mise": 0.0,
+      "statut": "Perdu",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "Chengdu, Chine, Simple Messieurs",
+      "date_match": "2026-09-24T06:40:00.000Z",
+      "match_intitule": "Moise Kouame vs Alexandre Muller",
+      "joueur_choisi": "Moise Kouame",
+      "cote_jouee": 1.78,
       "mise": 0.0,
       "statut": "Perdu",
       "gain_net": 0.0,
@@ -662,6 +805,17 @@
       "statut_analyse": "Pas_de_value"
     },
     {
+      "nom_tournoi": "ATP Challenger San Diego 2, USA, Men Singles",
+      "date_match": "2026-09-22T18:00:00.000Z",
+      "match_intitule": "Stefan Kozlov vs Colton Smith",
+      "joueur_choisi": "Colton Smith",
+      "cote_jouee": 1.3,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
       "nom_tournoi": "ATP Challenger Saint Tropez, France Men Singles",
       "date_match": "2026-09-22T15:30:00.000Z",
       "match_intitule": "Grigor Dimitrov vs Edas Butvilas",
@@ -794,6 +948,17 @@
       "statut_analyse": "Pas_de_value"
     },
     {
+      "nom_tournoi": "ATP Challenger Saint Tropez, France Men Singles",
+      "date_match": "2026-09-22T09:10:00.000Z",
+      "match_intitule": "Hugo Grenier vs Thomas Faurel",
+      "joueur_choisi": "Hugo Grenier",
+      "cote_jouee": 1.5,
+      "mise": 0.0,
+      "statut": "Perdu",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
       "nom_tournoi": "ATP Challenger Genoa 2, Italy Men Singles",
       "date_match": "2026-09-22T08:30:00.000Z",
       "match_intitule": "Sean Cuenin vs Kimmer Coppejans",
@@ -882,6 +1047,17 @@
       "statut_analyse": "Pas_de_value"
     },
     {
+      "nom_tournoi": "Chengdu, Chine, Simple Messieurs",
+      "date_match": "2026-09-22T05:00:00.000Z",
+      "match_intitule": "Alexandre Muller vs Luka Pavlovic",
+      "joueur_choisi": "Alexandre Muller",
+      "cote_jouee": 1.58,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
       "nom_tournoi": "ATP Challenger Plovdiv 4, Bulgaria Men Singles",
       "date_match": "2026-09-21T13:10:00.000Z",
       "match_intitule": "Benjamin Hassan vs Pol Martin Tiffon",
@@ -933,28 +1109,6 @@
       "cote_jouee": 1.53,
       "mise": 0.0,
       "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Guangzhou, Chine, Simple Messieurs",
-      "date_match": "2026-09-20T11:00:00.000Z",
-      "match_intitule": "Pavel Kotov vs Marat Sharipov",
-      "joueur_choisi": "Marat Sharipov",
-      "cote_jouee": 1.86,
-      "mise": 0.0,
-      "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Biella, Italie, Simple Messieurs",
-      "date_match": "2026-09-20T09:30:00.000Z",
-      "match_intitule": "Carlo Alberto Caniato vs Alejandro Moro Canas",
-      "joueur_choisi": "Alejandro Moro Canas",
-      "cote_jouee": 1.77,
-      "mise": 0.0,
-      "statut": "Perdu",
       "gain_net": 0.0,
       "statut_analyse": "Pas_de_value"
     }
