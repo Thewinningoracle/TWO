@@ -1,6 +1,50 @@
 {
-  "genere_le": "2026-09-28T07:06:44.561751",
+  "genere_le": "2026-09-29T07:06:34.306563",
   "resultats": [
+    {
+      "nom_tournoi": "ATP Hangzhou, China Men Singles",
+      "date_match": "2026-09-28T11:30:00.000Z",
+      "match_intitule": "Daniil Medvedev vs Roman Safiullin",
+      "joueur_choisi": "Daniil Medvedev",
+      "cote_jouee": 1.4,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "Chengdu, Chine, Simple Messieurs",
+      "date_match": "2026-09-28T11:00:00.000Z",
+      "match_intitule": "Hubert Hurkacz vs Denis Shapovalov",
+      "joueur_choisi": "Hubert Hurkacz",
+      "cote_jouee": 1.71,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "ATP Hangzhou, China Men Singles",
+      "date_match": "2026-09-28T09:30:00.000Z",
+      "match_intitule": "Kyrian Jacquet vs Andrey Rublev",
+      "joueur_choisi": "Andrey Rublev",
+      "cote_jouee": 1.32,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "Chengdu, Chine, Simple Messieurs",
+      "date_match": "2026-09-28T09:00:00.000Z",
+      "match_intitule": "Nikoloz Basilashvili vs Alejandro Davidovich Fokina",
+      "joueur_choisi": "Alejandro Davidovich Fokina",
+      "cote_jouee": 1.41,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
     {
       "nom_tournoi": "Buenos Aires II, ARG, Simple Messieurs",
       "date_match": "2026-09-27T16:00:00.000Z",
@@ -62,6 +106,17 @@
       "match_intitule": "Adrian Mannarino vs Denis Shapovalov",
       "joueur_choisi": "Denis Shapovalov",
       "cote_jouee": 1.36,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "Chengdu, Chine, Simple Messieurs",
+      "date_match": "2026-09-27T06:10:00.000Z",
+      "match_intitule": "Alexandre Muller vs Alejandro Davidovich Fokina",
+      "joueur_choisi": "Alejandro Davidovich Fokina",
+      "cote_jouee": 1.33,
       "mise": 0.0,
       "statut": "Gagné",
       "gain_net": 0.0,
@@ -1052,61 +1107,6 @@
       "match_intitule": "Alexandre Muller vs Luka Pavlovic",
       "joueur_choisi": "Alexandre Muller",
       "cote_jouee": 1.58,
-      "mise": 0.0,
-      "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "ATP Challenger Plovdiv 4, Bulgaria Men Singles",
-      "date_match": "2026-09-21T13:10:00.000Z",
-      "match_intitule": "Benjamin Hassan vs Pol Martin Tiffon",
-      "joueur_choisi": "Pol Martin Tiffon",
-      "cote_jouee": 1.58,
-      "mise": 0.0,
-      "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "ATP Challenger Saint Tropez, France Men Singles",
-      "date_match": "2026-09-21T13:00:00.000Z",
-      "match_intitule": "Andrea Guerrieri vs Francesco Maestrelli",
-      "joueur_choisi": "Andrea Guerrieri",
-      "cote_jouee": 1.64,
-      "mise": 0.0,
-      "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "ATP Challenger Genoa 2, Italy Men Singles",
-      "date_match": "2026-09-21T12:20:00.000Z",
-      "match_intitule": "Dali Blanch vs Sandro Kopp",
-      "joueur_choisi": "Dali Blanch",
-      "cote_jouee": 2.28,
-      "mise": 0.0,
-      "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "ATP Challenger Plovdiv 4, Bulgaria Men Singles",
-      "date_match": "2026-09-21T12:00:00.000Z",
-      "match_intitule": "Daniel Elahi Galan vs Calvin Hemery",
-      "joueur_choisi": "Daniel Elahi Galan",
-      "cote_jouee": 1.61,
-      "mise": 0.0,
-      "statut": "Perdu",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "ATP Challenger Saint Tropez, France Men Singles",
-      "date_match": "2026-09-21T08:00:00.000Z",
-      "match_intitule": "Matteo Martineau vs Justin Boulais",
-      "joueur_choisi": "Matteo Martineau",
-      "cote_jouee": 1.53,
       "mise": 0.0,
       "statut": "Gagné",
       "gain_net": 0.0,
