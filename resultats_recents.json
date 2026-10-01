@@ -1,5 +1,5 @@
 {
-  "genere_le": "2026-09-30T07:06:46.701114",
+  "genere_le": "2026-10-01T07:44:10.959391",
   "resultats": [
     {
       "nom_tournoi": "Pékin, Chine, Simple Messieurs",
@@ -46,11 +46,44 @@
       "statut_analyse": "Pas_de_value"
     },
     {
+      "nom_tournoi": "Columbus, USA, Simple Messieurs",
+      "date_match": "2026-09-29T21:00:00.000Z",
+      "match_intitule": "Stefan Kozlov vs Aidan Kim",
+      "joueur_choisi": "Stefan Kozlov",
+      "cote_jouee": 1.68,
+      "mise": 5.7913308753,
+      "statut": "Annulé",
+      "gain_net": 0.0,
+      "statut_analyse": "VB_suspect"
+    },
+    {
+      "nom_tournoi": "Columbus, USA, Simple Messieurs",
+      "date_match": "2026-09-29T20:20:00.000Z",
+      "match_intitule": "Trevor Svajda vs Andres Andrade",
+      "joueur_choisi": "Trevor Svajda",
+      "cote_jouee": 1.55,
+      "mise": 0.0,
+      "statut": "Perdu",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
       "nom_tournoi": "Mouilleron-le-Captif, France, Simple Messieurs",
       "date_match": "2026-09-29T19:10:00.000Z",
       "match_intitule": "Clement Chidekh vs David Goffin",
       "joueur_choisi": "Clement Chidekh",
       "cote_jouee": 1.34,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "Columbus, USA, Simple Messieurs",
+      "date_match": "2026-09-29T19:10:00.000Z",
+      "match_intitule": "Duncan Chan vs Colton Smith",
+      "joueur_choisi": "Colton Smith",
+      "cote_jouee": 1.41,
       "mise": 0.0,
       "statut": "Gagné",
       "gain_net": 0.0,
@@ -823,39 +856,6 @@
       "cote_jouee": 1.9,
       "mise": 0.0,
       "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "ATP Hangzhou, China Men Singles",
-      "date_match": "2026-09-23T11:30:00.000Z",
-      "match_intitule": "Valentin Royer vs Adam Walton",
-      "joueur_choisi": "Adam Walton",
-      "cote_jouee": 1.91,
-      "mise": 0.0,
-      "statut": "Perdu",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "ATP Hangzhou, China Men Singles",
-      "date_match": "2026-09-23T08:00:00.000Z",
-      "match_intitule": "Aleksandar Vukic vs Kyrian Jacquet",
-      "joueur_choisi": "Kyrian Jacquet",
-      "cote_jouee": 1.87,
-      "mise": 0.0,
-      "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "ATP Challenger Plovdiv 4, Bulgaria Men Singles",
-      "date_match": "2026-09-23T08:00:00.000Z",
-      "match_intitule": "Oriol Roca Batalla vs Calvin Hemery",
-      "joueur_choisi": "Oriol Roca Batalla",
-      "cote_jouee": 1.58,
-      "mise": 0.0,
-      "statut": "Perdu",
       "gain_net": 0.0,
       "statut_analyse": "Pas_de_value"
     }
