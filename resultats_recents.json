@@ -1,6 +1,105 @@
 {
-  "genere_le": "2026-10-06T07:41:25.203556",
+  "genere_le": "2026-10-06T20:34:52.977568",
   "resultats": [
+    {
+      "nom_tournoi": "Pékin, Chine, Simple Messieurs",
+      "date_match": "2026-10-06T11:00:00.000Z",
+      "match_intitule": "Novak Djokovic vs Alex de Minaur",
+      "joueur_choisi": "Alex de Minaur",
+      "cote_jouee": 2.6,
+      "mise": 5.7692643315,
+      "statut": "Annulé",
+      "gain_net": 0.0,
+      "statut_analyse": "VB_suspect"
+    },
+    {
+      "nom_tournoi": "Palerme, Italie, Simple Messieurs",
+      "date_match": "2026-10-06T09:10:00.000Z",
+      "match_intitule": "Pierluigi Basile vs Massimo Giunta",
+      "joueur_choisi": "Massimo Giunta",
+      "cote_jouee": 1.94,
+      "mise": 5.7692643315,
+      "statut": "Gagné",
+      "gain_net": 5.42,
+      "statut_analyse": "VB_suspect"
+    },
+    {
+      "nom_tournoi": "ATP Challenger Villena, Spain Men Singles",
+      "date_match": "2026-10-06T09:00:00.000Z",
+      "match_intitule": "Daniil Glinka vs Gauthier Onclin",
+      "joueur_choisi": "Daniil Glinka",
+      "cote_jouee": 1.63,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "ATP Challenger Villena, Spain Men Singles",
+      "date_match": "2026-10-06T09:00:00.000Z",
+      "match_intitule": "Felix Balshaw vs Joel Schwaerzler",
+      "joueur_choisi": "Felix Balshaw",
+      "cote_jouee": 1.85,
+      "mise": 0.0,
+      "statut": "Perdu",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "Shanghai, Chine, Simple Messieurs",
+      "date_match": "2026-10-06T07:00:00.000Z",
+      "match_intitule": "Pavel Kotov vs Aleksandar Vukic",
+      "joueur_choisi": "Pavel Kotov",
+      "cote_jouee": 1.65,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "Shanghai, Chine, Simple Messieurs",
+      "date_match": "2026-10-06T07:00:00.000Z",
+      "match_intitule": "Dane Sweeny vs Kimmer Coppejans",
+      "joueur_choisi": "Dane Sweeny",
+      "cote_jouee": 1.62,
+      "mise": 0.0,
+      "statut": "Perdu",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "Shanghai, Chine, Simple Messieurs",
+      "date_match": "2026-10-06T05:50:00.000Z",
+      "match_intitule": "Kyrian Jacquet vs Rei Sakamoto",
+      "joueur_choisi": "Rei Sakamoto",
+      "cote_jouee": 2.18,
+      "mise": 4.4432028517,
+      "statut": "Gagné",
+      "gain_net": 5.24,
+      "statut_analyse": "VB_valide"
+    },
+    {
+      "nom_tournoi": "Shanghai, Chine, Simple Messieurs",
+      "date_match": "2026-10-06T05:50:00.000Z",
+      "match_intitule": "Yoshihito Nishioka vs Dalibor Svrcina",
+      "joueur_choisi": "Dalibor Svrcina",
+      "cote_jouee": 1.56,
+      "mise": 0.0,
+      "statut": "Annulé",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "ATP Challenger Wuning 3, China Men Singles",
+      "date_match": "2026-10-06T05:50:00.000Z",
+      "match_intitule": "Evan Zhu vs Koki Matsuda",
+      "joueur_choisi": "Evan Zhu",
+      "cote_jouee": 1.35,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
     {
       "nom_tournoi": "Palerme, Italie, Simple Messieurs",
       "date_match": "2026-10-05T18:00:00.000Z",
