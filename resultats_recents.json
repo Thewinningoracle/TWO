@@ -1,6 +1,61 @@
 {
-  "genere_le": "2026-10-11T07:06:32.987010",
+  "genere_le": "2026-10-12T07:06:36.274754",
   "resultats": [
+    {
+      "nom_tournoi": "Braga, Portugal, Simple Messieurs",
+      "date_match": "2026-10-11T10:00:00.000Z",
+      "match_intitule": "Elmer Moller vs Matej Dodig",
+      "joueur_choisi": "Matej Dodig",
+      "cote_jouee": 1.4,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "ATP Challenger Villena, Spain Men Singles",
+      "date_match": "2026-10-11T09:30:00.000Z",
+      "match_intitule": "Daniil Glinka vs Laslo Djere",
+      "joueur_choisi": "Laslo Djere",
+      "cote_jouee": 1.46,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "Shanghai, Chine, Simple Messieurs",
+      "date_match": "2026-10-11T07:40:00.000Z",
+      "match_intitule": "Alexander Bublik vs Brandon Nakashima",
+      "joueur_choisi": "Brandon Nakashima",
+      "cote_jouee": 1.72,
+      "mise": 0.0,
+      "statut": "Perdu",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "Shanghai, Chine, Simple Messieurs",
+      "date_match": "2026-10-11T06:30:00.000Z",
+      "match_intitule": "Francisco Cerundolo vs Jakub Mensik",
+      "joueur_choisi": "Francisco Cerundolo",
+      "cote_jouee": 2.25,
+      "mise": 6.0278011149,
+      "statut": "Perdu",
+      "gain_net": -6.03,
+      "statut_analyse": "VB_suspect"
+    },
+    {
+      "nom_tournoi": "Shanghai, Chine, Simple Messieurs",
+      "date_match": "2026-10-11T05:20:00.000Z",
+      "match_intitule": "Alex de Minaur vs Rei Sakamoto",
+      "joueur_choisi": "Alex de Minaur",
+      "cote_jouee": 1.33,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
     {
       "nom_tournoi": "ATP Challenger Antofagasta, Chile Men Singles",
       "date_match": "2026-10-10T15:10:00.000Z",
@@ -113,6 +168,17 @@
     },
     {
       "nom_tournoi": "Shanghai, Chine, Simple Messieurs",
+      "date_match": "2026-10-10T07:30:00.000Z",
+      "match_intitule": "Tommy Paul vs Adolfo Daniel Vallejo",
+      "joueur_choisi": "Tommy Paul",
+      "cote_jouee": 1.44,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "Shanghai, Chine, Simple Messieurs",
       "date_match": "2026-10-10T06:20:00.000Z",
       "match_intitule": "Learner Tien vs Zachary Svajda",
       "joueur_choisi": "Learner Tien",
@@ -132,6 +198,17 @@
       "statut": "Gagné",
       "gain_net": 7.39,
       "statut_analyse": "VB_valide"
+    },
+    {
+      "nom_tournoi": "Shanghai, Chine, Simple Messieurs",
+      "date_match": "2026-10-10T05:10:00.000Z",
+      "match_intitule": "Yunchaokete Bu vs Casper Ruud",
+      "joueur_choisi": "Casper Ruud",
+      "cote_jouee": 1.8,
+      "mise": 5.8528011149,
+      "statut": "Gagné",
+      "gain_net": 4.68,
+      "statut_analyse": "VB_suspect"
     },
     {
       "nom_tournoi": "Shanghai, Chine, Simple Messieurs",
@@ -1175,28 +1252,6 @@
       "cote_jouee": 1.63,
       "mise": 0.0,
       "statut": "Perdu",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Pékin, Chine, Simple Messieurs",
-      "date_match": "2026-10-04T02:00:00.000Z",
-      "match_intitule": "Hubert Hurkacz vs Karen Khachanov",
-      "joueur_choisi": "Karen Khachanov",
-      "cote_jouee": 1.65,
-      "mise": 0.0,
-      "statut": "Perdu",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Tokyo, Japon, Simple Messieurs",
-      "date_match": "2026-10-04T01:00:00.000Z",
-      "match_intitule": "Jaume Munar vs Kyrian Jacquet",
-      "joueur_choisi": "Jaume Munar",
-      "cote_jouee": 1.61,
-      "mise": 0.0,
-      "statut": "Gagné",
       "gain_net": 0.0,
       "statut_analyse": "Pas_de_value"
     }
