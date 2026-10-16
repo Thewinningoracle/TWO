@@ -1,6 +1,105 @@
 {
-  "genere_le": "2026-10-15T07:08:20.844310",
+  "genere_le": "2026-10-16T07:06:41.039067",
   "resultats": [
+    {
+      "nom_tournoi": "ATP Challenger Santa Cruz 2, Bolivia Men Singles",
+      "date_match": "2026-10-15T20:30:00.000Z",
+      "match_intitule": "Franco Roncadelli vs Juan Carlos Prado Angelo",
+      "joueur_choisi": "Juan Carlos Prado Angelo",
+      "cote_jouee": 1.37,
+      "mise": 0.0,
+      "statut": "Perdu",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "ATP Challenger Olbia, Italy Men Singles",
+      "date_match": "2026-10-15T15:00:00.000Z",
+      "match_intitule": "Maxim Mrva vs Francesco Maestrelli",
+      "joueur_choisi": "Francesco Maestrelli",
+      "cote_jouee": 1.82,
+      "mise": 0.0,
+      "statut": "Perdu",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "ATP Challenger Olbia, Italy Men Singles",
+      "date_match": "2026-10-15T13:00:00.000Z",
+      "match_intitule": "Jacob Fearnley vs Jan Kumstat",
+      "joueur_choisi": "Jan Kumstat",
+      "cote_jouee": 2.8,
+      "mise": 4.6938011149,
+      "statut": "Perdu",
+      "gain_net": -4.69,
+      "statut_analyse": "VB_suspect"
+    },
+    {
+      "nom_tournoi": "Shanghai, Chine, Simple Messieurs",
+      "date_match": "2026-10-15T10:00:00.000Z",
+      "match_intitule": "Alexander Zverev vs Alex de Minaur",
+      "joueur_choisi": "Alexander Zverev",
+      "cote_jouee": 1.45,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "Shanghai, Chine, Simple Messieurs",
+      "date_match": "2026-10-15T06:30:00.000Z",
+      "match_intitule": "Arthur Gea vs Alejandro Davidovich Fokina",
+      "joueur_choisi": "Alejandro Davidovich Fokina",
+      "cote_jouee": 1.81,
+      "mise": 0.0,
+      "statut": "Annulé",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "Jinan, Chine, Simple Messieurs",
+      "date_match": "2026-10-15T06:20:00.000Z",
+      "match_intitule": "Tomas Machac vs Aleksandar Vukic",
+      "joueur_choisi": "Aleksandar Vukic",
+      "cote_jouee": 2.88,
+      "mise": 4.6938011149,
+      "statut": "Perdu",
+      "gain_net": -4.69,
+      "statut_analyse": "VB_suspect"
+    },
+    {
+      "nom_tournoi": "Jinan, Chine, Simple Messieurs",
+      "date_match": "2026-10-15T06:20:00.000Z",
+      "match_intitule": "Ilya Ivashka vs Liam Draxl",
+      "joueur_choisi": "Ilya Ivashka",
+      "cote_jouee": 1.87,
+      "mise": 0.0,
+      "statut": "Perdu",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "Jinan, Chine, Simple Messieurs",
+      "date_match": "2026-10-15T04:00:00.000Z",
+      "match_intitule": "Alexander Shevchenko vs Jay Friend",
+      "joueur_choisi": "Jay Friend",
+      "cote_jouee": 1.94,
+      "mise": 6.3973011149,
+      "statut": "Perdu",
+      "gain_net": -6.4,
+      "statut_analyse": "VB_suspect"
+    },
+    {
+      "nom_tournoi": "Jinan, Chine, Simple Messieurs",
+      "date_match": "2026-10-15T04:00:00.000Z",
+      "match_intitule": "Shintaro Mochizuki vs Dane Sweeny",
+      "joueur_choisi": "Dane Sweeny",
+      "cote_jouee": 2.1,
+      "mise": 6.3973011149,
+      "statut": "Perdu",
+      "gain_net": -6.4,
+      "statut_analyse": "VB_suspect"
+    },
     {
       "nom_tournoi": "ATP Challenger Santa Cruz 2, Bolivia Men Singles",
       "date_match": "2026-10-14T21:40:00.000Z",
@@ -22,6 +121,17 @@
       "statut": "Perdu",
       "gain_net": -6.4,
       "statut_analyse": "VB_suspect"
+    },
+    {
+      "nom_tournoi": "ATP Challenger Santa Cruz 2, Bolivia Men Singles",
+      "date_match": "2026-10-14T18:00:00.000Z",
+      "match_intitule": "Maximo Zeitune vs Luis Guto Miguel",
+      "joueur_choisi": "Luis Guto Miguel",
+      "cote_jouee": 1.58,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
     },
     {
       "nom_tournoi": "ATP Challenger Santa Cruz 2, Bolivia Men Singles",
@@ -64,6 +174,28 @@
       "cote_jouee": 1.72,
       "mise": 0.0,
       "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "Shanghai, Chine, Simple Messieurs",
+      "date_match": "2026-10-14T03:00:00.000Z",
+      "match_intitule": "Tommy Paul vs Zizou Bergs",
+      "joueur_choisi": "Tommy Paul",
+      "cote_jouee": 1.47,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "Shanghai, Chine, Simple Messieurs",
+      "date_match": "2026-10-14T02:00:00.000Z",
+      "match_intitule": "Casper Ruud vs Felix Auger-Aliassime",
+      "joueur_choisi": "Felix Auger-Aliassime",
+      "cote_jouee": 1.68,
+      "mise": 0.0,
+      "statut": "Annulé",
       "gain_net": 0.0,
       "statut_analyse": "Pas_de_value"
     },
@@ -968,325 +1100,6 @@
       "statut": "Perdu",
       "gain_net": 0.0,
       "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Palerme, Italie, Simple Messieurs",
-      "date_match": "2026-10-08T18:00:00.000Z",
-      "match_intitule": "Gabriele Piraino vs Enrico Dalla Valle",
-      "joueur_choisi": "Enrico Dalla Valle",
-      "cote_jouee": 1.49,
-      "mise": 6.0312643315,
-      "statut": "Gagné",
-      "gain_net": 2.96,
-      "statut_analyse": "VB_valide"
-    },
-    {
-      "nom_tournoi": "ATP Challenger Antofagasta, Chile Men Singles",
-      "date_match": "2026-10-08T18:00:00.000Z",
-      "match_intitule": "Juan Carlos Prado Angelo vs Pedro Boscardin Dias",
-      "joueur_choisi": "Pedro Boscardin Dias",
-      "cote_jouee": 2.48,
-      "mise": 6.0312643315,
-      "statut": "Perdu",
-      "gain_net": -6.03,
-      "statut_analyse": "VB_suspect"
-    },
-    {
-      "nom_tournoi": "Palerme, Italie, Simple Messieurs",
-      "date_match": "2026-10-08T15:00:00.000Z",
-      "match_intitule": "Carlo Alberto Caniato vs Francesco Passaro",
-      "joueur_choisi": "Carlo Alberto Caniato",
-      "cote_jouee": 2.05,
-      "mise": 6.0312643315,
-      "statut": "Perdu",
-      "gain_net": -6.03,
-      "statut_analyse": "VB_suspect"
-    },
-    {
-      "nom_tournoi": "Braga, Portugal, Simple Messieurs",
-      "date_match": "2026-10-08T14:20:00.000Z",
-      "match_intitule": "Vilius Gaubas vs Duje Ajdukovic",
-      "joueur_choisi": "Duje Ajdukovic",
-      "cote_jouee": 2.95,
-      "mise": 6.0312643315,
-      "statut": "Perdu",
-      "gain_net": -6.03,
-      "statut_analyse": "VB_suspect"
-    },
-    {
-      "nom_tournoi": "Braga, Portugal, Simple Messieurs",
-      "date_match": "2026-10-08T13:10:00.000Z",
-      "match_intitule": "Zsombor Piros vs Elmer Moller",
-      "joueur_choisi": "Zsombor Piros",
-      "cote_jouee": 1.57,
-      "mise": 6.0312643315,
-      "statut": "Perdu",
-      "gain_net": -6.03,
-      "statut_analyse": "VB_suspect"
-    },
-    {
-      "nom_tournoi": "Palerme, Italie, Simple Messieurs",
-      "date_match": "2026-10-08T12:10:00.000Z",
-      "match_intitule": "Carlos Sanchez Jover vs Lorenzo Giustino",
-      "joueur_choisi": "Lorenzo Giustino",
-      "cote_jouee": 1.71,
-      "mise": 0.0,
-      "statut": "Perdu",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "ATP Challenger Villena, Spain Men Singles",
-      "date_match": "2026-10-08T11:20:00.000Z",
-      "match_intitule": "Max Hans Rehberg vs Hynek Barton",
-      "joueur_choisi": "Hynek Barton",
-      "cote_jouee": 2.15,
-      "mise": 0.0,
-      "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Shanghai, Chine, Simple Messieurs",
-      "date_match": "2026-10-08T11:10:00.000Z",
-      "match_intitule": "Cameron Norrie vs Dalibor Svrcina",
-      "joueur_choisi": "Cameron Norrie",
-      "cote_jouee": 1.55,
-      "mise": 0.0,
-      "statut": "Perdu",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "ATP Challenger Villena, Spain Men Singles",
-      "date_match": "2026-10-08T11:10:00.000Z",
-      "match_intitule": "Damir Dzumhur vs Abdullah Shelbayh",
-      "joueur_choisi": "Abdullah Shelbayh",
-      "cote_jouee": 1.83,
-      "mise": 6.0312643315,
-      "statut": "Gagné",
-      "gain_net": 5.01,
-      "statut_analyse": "VB_suspect"
-    },
-    {
-      "nom_tournoi": "Palerme, Italie, Simple Messieurs",
-      "date_match": "2026-10-08T11:00:00.000Z",
-      "match_intitule": "Buvaysar Gadamauri vs Yanaki Milev",
-      "joueur_choisi": "Buvaysar Gadamauri",
-      "cote_jouee": 1.48,
-      "mise": 0.0,
-      "statut": "Perdu",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Braga, Portugal, Simple Messieurs",
-      "date_match": "2026-10-08T10:30:00.000Z",
-      "match_intitule": "Olle Wallin vs Lukas Neumayer",
-      "joueur_choisi": "Lukas Neumayer",
-      "cote_jouee": 1.38,
-      "mise": 0.0,
-      "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "ATP Challenger Villena, Spain Men Singles",
-      "date_match": "2026-10-08T10:10:00.000Z",
-      "match_intitule": "Oliver Tarvet vs Laslo Djere",
-      "joueur_choisi": "Oliver Tarvet",
-      "cote_jouee": 1.5,
-      "mise": 0.0,
-      "statut": "Perdu",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Shanghai, Chine, Simple Messieurs",
-      "date_match": "2026-10-08T10:00:00.000Z",
-      "match_intitule": "Luca Van Assche vs Yunchaokete Bu",
-      "joueur_choisi": "Yunchaokete Bu",
-      "cote_jouee": 1.61,
-      "mise": 0.0,
-      "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "ATP Challenger Villena, Spain Men Singles",
-      "date_match": "2026-10-08T10:00:00.000Z",
-      "match_intitule": "Jack Pinnington Jones vs Joel Schwaerzler",
-      "joueur_choisi": "Jack Pinnington Jones",
-      "cote_jouee": 1.83,
-      "mise": 0.0,
-      "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "ATP Challenger Villena, Spain Men Singles",
-      "date_match": "2026-10-08T09:00:00.000Z",
-      "match_intitule": "Philip Henning vs Borna Gojo",
-      "joueur_choisi": "Borna Gojo",
-      "cote_jouee": 1.37,
-      "mise": 6.0312643315,
-      "statut": "Gagné",
-      "gain_net": 2.23,
-      "statut_analyse": "VB_suspect"
-    },
-    {
-      "nom_tournoi": "ATP Challenger Villena, Spain Men Singles",
-      "date_match": "2026-10-08T09:00:00.000Z",
-      "match_intitule": "Moez Echargui vs Daniil Glinka",
-      "joueur_choisi": "Daniil Glinka",
-      "cote_jouee": 1.62,
-      "mise": 6.0312643315,
-      "statut": "Gagné",
-      "gain_net": 3.74,
-      "statut_analyse": "VB_valide"
-    },
-    {
-      "nom_tournoi": "Shanghai, Chine, Simple Messieurs",
-      "date_match": "2026-10-08T07:30:00.000Z",
-      "match_intitule": "Vit Kopriva vs Zizou Bergs",
-      "joueur_choisi": "Zizou Bergs",
-      "cote_jouee": 1.36,
-      "mise": 0.0,
-      "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Shanghai, Chine, Simple Messieurs",
-      "date_match": "2026-10-08T07:30:00.000Z",
-      "match_intitule": "Botic Van De Zandschulp vs Daniel Merida",
-      "joueur_choisi": "Botic Van De Zandschulp",
-      "cote_jouee": 1.95,
-      "mise": 0.0,
-      "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Shanghai, Chine, Simple Messieurs",
-      "date_match": "2026-10-08T06:20:00.000Z",
-      "match_intitule": "Marcos Giron vs Sebastian Baez",
-      "joueur_choisi": "Marcos Giron",
-      "cote_jouee": 2.1,
-      "mise": 0.0,
-      "statut": "Perdu",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Shanghai, Chine, Simple Messieurs",
-      "date_match": "2026-10-08T06:20:00.000Z",
-      "match_intitule": "Martin Landaluce vs Jan-Lennard Struff",
-      "joueur_choisi": "Jan-Lennard Struff",
-      "cote_jouee": 1.9,
-      "mise": 0.0,
-      "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Shanghai, Chine, Simple Messieurs",
-      "date_match": "2026-10-08T06:20:00.000Z",
-      "match_intitule": "Fabian Marozsan vs Zachary Svajda",
-      "joueur_choisi": "Fabian Marozsan",
-      "cote_jouee": 1.78,
-      "mise": 0.0,
-      "statut": "Perdu",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Shanghai, Chine, Simple Messieurs",
-      "date_match": "2026-10-08T06:20:00.000Z",
-      "match_intitule": "Juan Manuel Cerundolo vs Nicolas Mejia",
-      "joueur_choisi": "Juan Manuel Cerundolo",
-      "cote_jouee": 1.48,
-      "mise": 0.0,
-      "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Shanghai, Chine, Simple Messieurs",
-      "date_match": "2026-10-08T05:10:00.000Z",
-      "match_intitule": "Adolfo Daniel Vallejo vs Valentin Royer",
-      "joueur_choisi": "Valentin Royer",
-      "cote_jouee": 2.08,
-      "mise": 0.0,
-      "statut": "Perdu",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Shanghai, Chine, Simple Messieurs",
-      "date_match": "2026-10-08T05:10:00.000Z",
-      "match_intitule": "Mariano Navone vs Pablo Carreno Busta",
-      "joueur_choisi": "Mariano Navone",
-      "cote_jouee": 1.68,
-      "mise": 0.0,
-      "statut": "Perdu",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Shanghai, Chine, Simple Messieurs",
-      "date_match": "2026-10-08T05:10:00.000Z",
-      "match_intitule": "Hubert Hurkacz vs James Duckworth",
-      "joueur_choisi": "Hubert Hurkacz",
-      "cote_jouee": 1.33,
-      "mise": 5.7692643315,
-      "statut": "Gagné",
-      "gain_net": 1.9,
-      "statut_analyse": "VB_valide"
-    },
-    {
-      "nom_tournoi": "Shanghai, Chine, Simple Messieurs",
-      "date_match": "2026-10-08T05:10:00.000Z",
-      "match_intitule": "Bernard Tomic vs Matteo Arnaldi",
-      "joueur_choisi": "Bernard Tomic",
-      "cote_jouee": 2.8,
-      "mise": 6.0312643315,
-      "statut": "Perdu",
-      "gain_net": -6.03,
-      "statut_analyse": "VB_suspect"
-    },
-    {
-      "nom_tournoi": "Shanghai, Chine, Simple Messieurs",
-      "date_match": "2026-10-08T04:00:00.000Z",
-      "match_intitule": "Jaume Munar vs Jenson Brooksby",
-      "joueur_choisi": "Jaume Munar",
-      "cote_jouee": 1.56,
-      "mise": 0.0,
-      "statut": "Perdu",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Shanghai, Chine, Simple Messieurs",
-      "date_match": "2026-10-08T02:00:00.000Z",
-      "match_intitule": "Camilo Ugo Carabelli vs Ilia Simakin",
-      "joueur_choisi": "Ilia Simakin",
-      "cote_jouee": 1.46,
-      "mise": 6.0312643315,
-      "statut": "Perdu",
-      "gain_net": -6.03,
-      "statut_analyse": "VB_suspect"
-    },
-    {
-      "nom_tournoi": "Shanghai, Chine, Simple Messieurs",
-      "date_match": "2026-10-08T02:00:00.000Z",
-      "match_intitule": "Pavel Kotov vs Tallon Griekspoor",
-      "joueur_choisi": "Pavel Kotov",
-      "cote_jouee": 2.8,
-      "mise": 6.0312643315,
-      "statut": "Gagné",
-      "gain_net": 10.86,
-      "statut_analyse": "VB_suspect"
     }
   ]
 }
