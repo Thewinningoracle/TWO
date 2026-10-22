@@ -1,6 +1,226 @@
 {
-  "genere_le": "2026-10-21T07:06:52.063226",
+  "genere_le": "2026-10-22T07:06:50.884086",
   "resultats": [
+    {
+      "nom_tournoi": "ATP Challenger Fort Worth, USA Men Singles",
+      "date_match": "2026-10-21T18:20:00.000Z",
+      "match_intitule": "Jenson Brooksby vs Timo Legout",
+      "joueur_choisi": "Timo Legout",
+      "cote_jouee": 3.4,
+      "mise": 4.5944360592,
+      "statut": "Perdu",
+      "gain_net": -4.59,
+      "statut_analyse": "VB_suspect"
+    },
+    {
+      "nom_tournoi": "Cali, Colombie, Simple Messieurs",
+      "date_match": "2026-10-21T16:10:00.000Z",
+      "match_intitule": "Gustavo Heide vs Juan Pablo Varillas",
+      "joueur_choisi": "Gustavo Heide",
+      "cote_jouee": 1.29,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "ATP Brussels, Belgium Singles",
+      "date_match": "2026-10-21T16:00:00.000Z",
+      "match_intitule": "David Goffin vs Remy Bertola",
+      "joueur_choisi": "Remy Bertola",
+      "cote_jouee": 1.49,
+      "mise": 0.0,
+      "statut": "Perdu",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "ATP Challenger Fort Worth, USA Men Singles",
+      "date_match": "2026-10-21T16:00:00.000Z",
+      "match_intitule": "Daniel Milavsky vs Darwin Blanch",
+      "joueur_choisi": "Darwin Blanch",
+      "cote_jouee": 1.49,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "Cali, Colombie, Simple Messieurs",
+      "date_match": "2026-10-21T15:00:00.000Z",
+      "match_intitule": "Juan Manuel La Serna vs Juan Bautista Torres",
+      "joueur_choisi": "Juan Manuel La Serna",
+      "cote_jouee": 1.5,
+      "mise": 4.5944360592,
+      "statut": "Gagné",
+      "gain_net": 2.3,
+      "statut_analyse": "VB_valide"
+    },
+    {
+      "nom_tournoi": "Cali, Colombie, Simple Messieurs",
+      "date_match": "2026-10-21T15:00:00.000Z",
+      "match_intitule": "Facundo Mena vs Valerio Aboian",
+      "joueur_choisi": "Facundo Mena",
+      "cote_jouee": 1.43,
+      "mise": 0.0,
+      "statut": "Perdu",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "Lisbonne, Portugal, Simple Messieurs",
+      "date_match": "2026-10-21T14:20:00.000Z",
+      "match_intitule": "Marco Trungelliti vs Carlo Alberto Caniato",
+      "joueur_choisi": "Carlo Alberto Caniato",
+      "cote_jouee": 2.43,
+      "mise": 4.0747558499,
+      "statut": "Perdu",
+      "gain_net": -4.07,
+      "statut_analyse": "VB_valide"
+    },
+    {
+      "nom_tournoi": "Lyon, France, Simple Messieurs",
+      "date_match": "2026-10-21T13:10:00.000Z",
+      "match_intitule": "Corentin Moutet vs Felix Balshaw",
+      "joueur_choisi": "Felix Balshaw",
+      "cote_jouee": 1.81,
+      "mise": 0.0,
+      "statut": "Perdu",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "Lisbonne, Portugal, Simple Messieurs",
+      "date_match": "2026-10-21T13:10:00.000Z",
+      "match_intitule": "Matej Dodig vs Marco Cecchinato",
+      "joueur_choisi": "Matej Dodig",
+      "cote_jouee": 1.3,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "Lyon, France, Simple Messieurs",
+      "date_match": "2026-10-21T12:00:00.000Z",
+      "match_intitule": "Stan Wawrinka vs Martin Landaluce",
+      "joueur_choisi": "Martin Landaluce",
+      "cote_jouee": 1.57,
+      "mise": 0.0,
+      "statut": "Perdu",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "Lisbonne, Portugal, Simple Messieurs",
+      "date_match": "2026-10-21T12:00:00.000Z",
+      "match_intitule": "Thiago Monteiro vs Henrique Rocha",
+      "joueur_choisi": "Henrique Rocha",
+      "cote_jouee": 1.48,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "ATP Brussels, Belgium Singles",
+      "date_match": "2026-10-21T11:50:00.000Z",
+      "match_intitule": "Clement Chidekh vs Jacob Fearnley",
+      "joueur_choisi": "Jacob Fearnley",
+      "cote_jouee": 1.91,
+      "mise": 0.0,
+      "statut": "Perdu",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "ATP Brussels, Belgium Singles",
+      "date_match": "2026-10-21T10:40:00.000Z",
+      "match_intitule": "Mariano Navone vs Tallon Griekspoor",
+      "joueur_choisi": "Mariano Navone",
+      "cote_jouee": 2.28,
+      "mise": 3.5477650127,
+      "statut": "Perdu",
+      "gain_net": -3.55,
+      "statut_analyse": "VB_valide"
+    },
+    {
+      "nom_tournoi": "Guangzhou, Chine, Simple Messieurs",
+      "date_match": "2026-10-21T10:00:00.000Z",
+      "match_intitule": "Zhizhen Zhang vs Yi Zhou",
+      "joueur_choisi": "Yi Zhou",
+      "cote_jouee": 1.75,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "ATP Brussels, Belgium Singles",
+      "date_match": "2026-10-21T09:30:00.000Z",
+      "match_intitule": "Dino Prizmic vs Damir Dzumhur",
+      "joueur_choisi": "Dino Prizmic",
+      "cote_jouee": 1.37,
+      "mise": 4.3739360592,
+      "statut": "Perdu",
+      "gain_net": -4.37,
+      "statut_analyse": "VB_suspect"
+    },
+    {
+      "nom_tournoi": "Lisbonne, Portugal, Simple Messieurs",
+      "date_match": "2026-10-21T09:00:00.000Z",
+      "match_intitule": "Max Alcala Gurri vs Elmer Moller",
+      "joueur_choisi": "Max Alcala Gurri",
+      "cote_jouee": 1.89,
+      "mise": 4.5944360592,
+      "statut": "Perdu",
+      "gain_net": -4.59,
+      "statut_analyse": "VB_suspect"
+    },
+    {
+      "nom_tournoi": "ATP Almaty, Kazakhstan Men Singles",
+      "date_match": "2026-10-21T08:50:00.000Z",
+      "match_intitule": "Adrian Mannarino vs Andrey Rublev",
+      "joueur_choisi": "Andrey Rublev",
+      "cote_jouee": 1.3,
+      "mise": 0.0,
+      "statut": "Perdu",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "ATP Almaty, Kazakhstan Men Singles",
+      "date_match": "2026-10-21T07:40:00.000Z",
+      "match_intitule": "Facundo Diaz Acosta vs Nikoloz Basilashvili",
+      "joueur_choisi": "Nikoloz Basilashvili",
+      "cote_jouee": 1.43,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "ATP Almaty, Kazakhstan Men Singles",
+      "date_match": "2026-10-21T06:30:00.000Z",
+      "match_intitule": "James Duckworth vs Luciano Darderi",
+      "joueur_choisi": "Luciano Darderi",
+      "cote_jouee": 1.78,
+      "mise": 0.0,
+      "statut": "Perdu",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "ATP Almaty, Kazakhstan Men Singles",
+      "date_match": "2026-10-21T06:30:00.000Z",
+      "match_intitule": "Mattia Bellucci vs Tomas Martin Etcheverry",
+      "joueur_choisi": "Mattia Bellucci",
+      "cote_jouee": 1.81,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
     {
       "nom_tournoi": "Lyon, France, Simple Messieurs",
       "date_match": "2026-10-20T18:10:00.000Z",
@@ -97,6 +317,17 @@
       "cote_jouee": 1.74,
       "mise": 0.0,
       "statut": "Perdu",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "Florence, Italie, Simple Messieurs",
+      "date_match": "2026-10-20T13:30:00.000Z",
+      "match_intitule": "Yanaki Milev vs Lorenzo Giustino",
+      "joueur_choisi": "Yanaki Milev",
+      "cote_jouee": 2.43,
+      "mise": 0.0,
+      "statut": "Gagné",
       "gain_net": 0.0,
       "statut_analyse": "Pas_de_value"
     },
@@ -1100,127 +1331,6 @@
       "statut": "Perdu",
       "gain_net": -6.4,
       "statut_analyse": "VB_suspect"
-    },
-    {
-      "nom_tournoi": "ATP Challenger Santa Cruz 2, Bolivia Men Singles",
-      "date_match": "2026-10-14T21:40:00.000Z",
-      "match_intitule": "Francisco Comesana vs Felipe Meligeni Alves",
-      "joueur_choisi": "Francisco Comesana",
-      "cote_jouee": 1.48,
-      "mise": 0.0,
-      "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "ATP Challenger Santa Cruz 2, Bolivia Men Singles",
-      "date_match": "2026-10-14T20:30:00.000Z",
-      "match_intitule": "Rodrigo Pacheco Mendez vs Hugo Dellien",
-      "joueur_choisi": "Rodrigo Pacheco Mendez",
-      "cote_jouee": 2.38,
-      "mise": 6.3973011149,
-      "statut": "Perdu",
-      "gain_net": -6.4,
-      "statut_analyse": "VB_suspect"
-    },
-    {
-      "nom_tournoi": "ATP Challenger Santa Cruz 2, Bolivia Men Singles",
-      "date_match": "2026-10-14T18:00:00.000Z",
-      "match_intitule": "Maximo Zeitune vs Luis Guto Miguel",
-      "joueur_choisi": "Luis Guto Miguel",
-      "cote_jouee": 1.58,
-      "mise": 0.0,
-      "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "ATP Challenger Santa Cruz 2, Bolivia Men Singles",
-      "date_match": "2026-10-14T18:00:00.000Z",
-      "match_intitule": "Genaro Alberto Olivieri vs Alex Barrena",
-      "joueur_choisi": "Alex Barrena",
-      "cote_jouee": 1.48,
-      "mise": 0.0,
-      "statut": "Perdu",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "ATP Challenger Roanne, France, Men Singles",
-      "date_match": "2026-10-14T17:40:00.000Z",
-      "match_intitule": "Hugo Gaston vs Pierre-Hugues Herbert",
-      "joueur_choisi": "Hugo Gaston",
-      "cote_jouee": 1.4,
-      "mise": 0.0,
-      "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "ATP Challenger Roanne, France, Men Singles",
-      "date_match": "2026-10-14T16:30:00.000Z",
-      "match_intitule": "Mika Brunold vs Benjamin Bonzi",
-      "joueur_choisi": "Benjamin Bonzi",
-      "cote_jouee": 1.36,
-      "mise": 0.0,
-      "statut": "Perdu",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Maia, Portugal, Simple Messieurs",
-      "date_match": "2026-10-14T10:00:00.000Z",
-      "match_intitule": "Elmer Moller vs Lukas Neumayer",
-      "joueur_choisi": "Lukas Neumayer",
-      "cote_jouee": 1.72,
-      "mise": 0.0,
-      "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Shanghai, Chine, Simple Messieurs",
-      "date_match": "2026-10-14T03:00:00.000Z",
-      "match_intitule": "Tommy Paul vs Zizou Bergs",
-      "joueur_choisi": "Tommy Paul",
-      "cote_jouee": 1.47,
-      "mise": 0.0,
-      "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Shanghai, Chine, Simple Messieurs",
-      "date_match": "2026-10-14T02:00:00.000Z",
-      "match_intitule": "Casper Ruud vs Felix Auger-Aliassime",
-      "joueur_choisi": "Felix Auger-Aliassime",
-      "cote_jouee": 1.68,
-      "mise": 0.0,
-      "statut": "Annulé",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Shanghai, Chine, Simple Messieurs",
-      "date_match": "2026-10-14T02:00:00.000Z",
-      "match_intitule": "Daniil Medvedev vs Stefanos Tsitsipas",
-      "joueur_choisi": "Daniil Medvedev",
-      "cote_jouee": 1.44,
-      "mise": 0.0,
-      "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Shanghai, Chine, Simple Messieurs",
-      "date_match": "2026-10-14T02:00:00.000Z",
-      "match_intitule": "Botic van de Zandschulp vs Rafael Jodar",
-      "joueur_choisi": "Rafael Jodar",
-      "cote_jouee": 1.5,
-      "mise": 0.0,
-      "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
     }
   ]
 }
