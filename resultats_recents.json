@@ -1,6 +1,50 @@
 {
-  "genere_le": "2026-10-31T07:06:42.013396",
+  "genere_le": "2026-11-01T07:06:43.216895",
   "resultats": [
+    {
+      "nom_tournoi": "Bâle, Suisse, Simple Messieurs",
+      "date_match": "2026-10-31T16:00:00.000Z",
+      "match_intitule": "Jiri Lehecka vs Jan-Lennard Struff",
+      "joueur_choisi": "Jiri Lehecka",
+      "cote_jouee": 1.46,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "Vienne, Autriche, Simple Messieurs",
+      "date_match": "2026-10-31T15:30:00.000Z",
+      "match_intitule": "Alexander Zverev vs Alex de Minaur",
+      "joueur_choisi": "Alexander Zverev",
+      "cote_jouee": 1.38,
+      "mise": 0.0,
+      "statut": "Perdu",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "Brest, France, Simple Messieurs",
+      "date_match": "2026-10-31T15:10:00.000Z",
+      "match_intitule": "Moise Kouame vs Otto Virtanen",
+      "joueur_choisi": "Moise Kouame",
+      "cote_jouee": 2.18,
+      "mise": 3.5082059998,
+      "statut": "Gagné",
+      "gain_net": 4.14,
+      "statut_analyse": "VB_valide"
+    },
+    {
+      "nom_tournoi": "Bâle, Suisse, Simple Messieurs",
+      "date_match": "2026-10-31T14:00:00.000Z",
+      "match_intitule": "Valentin Vacherot vs Taylor Fritz",
+      "joueur_choisi": "Taylor Fritz",
+      "cote_jouee": 1.32,
+      "mise": 0.0,
+      "statut": "Perdu",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
     {
       "nom_tournoi": "ATP Challenger Sioux Falls, USA Men Singles",
       "date_match": "2026-10-30T22:00:00.000Z",
@@ -935,226 +979,6 @@
       "statut": "Gagné",
       "gain_net": 3.49,
       "statut_analyse": "VB_suspect"
-    },
-    {
-      "nom_tournoi": "Vienne, Autriche, Simple Messieurs",
-      "date_match": "2026-10-24T16:00:00.000Z",
-      "match_intitule": "Thiago Agustin Tirante vs Adrian Mannarino",
-      "joueur_choisi": "Adrian Mannarino",
-      "cote_jouee": 2.12,
-      "mise": 0.0,
-      "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Vienne, Autriche, Simple Messieurs",
-      "date_match": "2026-10-24T14:00:00.000Z",
-      "match_intitule": "Corentin Moutet vs Tomas Machac",
-      "joueur_choisi": "Corentin Moutet",
-      "cote_jouee": 2.18,
-      "mise": 0.0,
-      "statut": "Perdu",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "ATP Brussels, Belgium Singles",
-      "date_match": "2026-10-24T14:00:00.000Z",
-      "match_intitule": "Francisco Cerundolo vs Tallon Griekspoor",
-      "joueur_choisi": "Francisco Cerundolo",
-      "cote_jouee": 1.5,
-      "mise": 0.0,
-      "statut": "Perdu",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "ATP Almaty, Kazakhstan Men Singles",
-      "date_match": "2026-10-24T13:00:00.000Z",
-      "match_intitule": "Daniil Medvedev vs Alexander Bublik",
-      "joueur_choisi": "Daniil Medvedev",
-      "cote_jouee": 1.53,
-      "mise": 0.0,
-      "statut": "Annulé",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Bâle, Suisse, Simple Messieurs",
-      "date_match": "2026-10-24T12:30:00.000Z",
-      "match_intitule": "Henry Bernet vs Daniel Altmaier",
-      "joueur_choisi": "Henry Bernet",
-      "cote_jouee": 2.23,
-      "mise": 4.0844360592,
-      "statut": "Perdu",
-      "gain_net": -4.08,
-      "statut_analyse": "VB_suspect"
-    },
-    {
-      "nom_tournoi": "Bâle, Suisse, Simple Messieurs",
-      "date_match": "2026-10-24T12:30:00.000Z",
-      "match_intitule": "Aleksandar Kovacevic vs James Duckworth",
-      "joueur_choisi": "James Duckworth",
-      "cote_jouee": 2.23,
-      "mise": 0.0,
-      "statut": "Perdu",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Lyon, France, Simple Messieurs",
-      "date_match": "2026-10-24T12:00:00.000Z",
-      "match_intitule": "Tommy Paul vs Taylor Fritz",
-      "joueur_choisi": "Taylor Fritz",
-      "cote_jouee": 1.5,
-      "mise": 0.0,
-      "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Vienne, Autriche, Simple Messieurs",
-      "date_match": "2026-10-24T11:20:00.000Z",
-      "match_intitule": "Alex Molcan vs Hamad Medjedovic",
-      "joueur_choisi": "Hamad Medjedovic",
-      "cote_jouee": 1.65,
-      "mise": 0.0,
-      "statut": "Perdu",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Lisbonne, Portugal, Simple Messieurs",
-      "date_match": "2026-10-24T11:10:00.000Z",
-      "match_intitule": "Svyatoslav Gulin vs Elmer Moller",
-      "joueur_choisi": "Elmer Moller",
-      "cote_jouee": 1.4,
-      "mise": 0.0,
-      "statut": "Perdu",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Vienne, Autriche, Simple Messieurs",
-      "date_match": "2026-10-24T10:40:00.000Z",
-      "match_intitule": "Joel Schwaerzler vs Titouan Droguet",
-      "joueur_choisi": "Titouan Droguet",
-      "cote_jouee": 1.29,
-      "mise": 0.0,
-      "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Bâle, Suisse, Simple Messieurs",
-      "date_match": "2026-10-24T10:10:00.000Z",
-      "match_intitule": "Jaime Faria vs Mika Brunold",
-      "joueur_choisi": "Mika Brunold",
-      "cote_jouee": 2.18,
-      "mise": 4.0844360592,
-      "statut": "Gagné",
-      "gain_net": 4.82,
-      "statut_analyse": "VB_suspect"
-    },
-    {
-      "nom_tournoi": "Bâle, Suisse, Simple Messieurs",
-      "date_match": "2026-10-24T10:10:00.000Z",
-      "match_intitule": "Juan Manuel Cerundolo vs Zachary Svajda",
-      "joueur_choisi": "Zachary Svajda",
-      "cote_jouee": 1.61,
-      "mise": 0.0,
-      "statut": "Perdu",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Vienne, Autriche, Simple Messieurs",
-      "date_match": "2026-10-24T10:10:00.000Z",
-      "match_intitule": "Adolfo Daniel Vallejo vs Lorenzo Sonego",
-      "joueur_choisi": "Adolfo Daniel Vallejo",
-      "cote_jouee": 1.88,
-      "mise": 0.0,
-      "statut": "Perdu",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Lisbonne, Portugal, Simple Messieurs",
-      "date_match": "2026-10-24T10:00:00.000Z",
-      "match_intitule": "Marco Trungelliti vs Alexander Ritschard",
-      "joueur_choisi": "Marco Trungelliti",
-      "cote_jouee": 1.68,
-      "mise": 0.0,
-      "statut": "Perdu",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "ATP Almaty, Kazakhstan Men Singles",
-      "date_match": "2026-10-24T10:00:00.000Z",
-      "match_intitule": "Nikoloz Basilashvili vs Stefanos Tsitsipas",
-      "joueur_choisi": "Stefanos Tsitsipas",
-      "cote_jouee": 1.38,
-      "mise": 0.0,
-      "statut": "Perdu",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Vienne, Autriche, Simple Messieurs",
-      "date_match": "2026-10-24T09:30:00.000Z",
-      "match_intitule": "Vit Kopriva vs Lukas Neumayer",
-      "joueur_choisi": "Lukas Neumayer",
-      "cote_jouee": 2.0,
-      "mise": 0.0,
-      "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Florence, Italie, Simple Messieurs",
-      "date_match": "2026-10-24T09:30:00.000Z",
-      "match_intitule": "Sandro Kopp vs Filippo Romano",
-      "joueur_choisi": "Filippo Romano",
-      "cote_jouee": 2.14,
-      "mise": 0.0,
-      "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Bâle, Suisse, Simple Messieurs",
-      "date_match": "2026-10-24T09:00:00.000Z",
-      "match_intitule": "Marcos Giron vs Yannick Hanfmann",
-      "joueur_choisi": "Yannick Hanfmann",
-      "cote_jouee": 1.58,
-      "mise": 0.0,
-      "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Bâle, Suisse, Simple Messieurs",
-      "date_match": "2026-10-24T09:00:00.000Z",
-      "match_intitule": "Miomir Kecmanovic vs Rinky Hijikata",
-      "joueur_choisi": "Miomir Kecmanovic",
-      "cote_jouee": 1.6,
-      "mise": 0.0,
-      "statut": "Perdu",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Vienne, Autriche, Simple Messieurs",
-      "date_match": "2026-10-24T09:00:00.000Z",
-      "match_intitule": "Jacob Fearnley vs Pablo Carreno Busta",
-      "joueur_choisi": "Jacob Fearnley",
-      "cote_jouee": 1.57,
-      "mise": 0.0,
-      "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
     }
   ]
 }
