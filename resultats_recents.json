@@ -1,6 +1,94 @@
 {
-  "genere_le": "2026-11-06T07:11:09.003371",
+  "genere_le": "2026-11-06T07:37:22.424105",
   "resultats": [
+    {
+      "nom_tournoi": "ATP Challenger Villa Maria, Argentina Men Singles",
+      "date_match": "2026-11-05T20:00:00.000Z",
+      "match_intitule": "Federico Coria vs Valerio Aboian",
+      "joueur_choisi": "Valerio Aboian",
+      "cote_jouee": 1.8,
+      "mise": 4.2998642562,
+      "statut": "Perdu",
+      "gain_net": -4.2998642562,
+      "statut_analyse": "VB_suspect"
+    },
+    {
+      "nom_tournoi": "Paris, France, Simple Messieurs",
+      "date_match": "2026-11-05T19:30:00.000Z",
+      "match_intitule": "Jan-Lennard Struff vs Casper Ruud",
+      "joueur_choisi": "Casper Ruud",
+      "cote_jouee": 1.45,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "ATP Challenger Costa do Sauipe, Brazil Men Singles",
+      "date_match": "2026-11-05T19:30:00.000Z",
+      "match_intitule": "Joao Lucas Reis Da Silva vs Elmer Moller",
+      "joueur_choisi": "Joao Lucas Reis Da Silva",
+      "cote_jouee": 2.48,
+      "mise": 4.2998642562,
+      "statut": "Gagné",
+      "gain_net": 6.36,
+      "statut_analyse": "VB_suspect"
+    },
+    {
+      "nom_tournoi": "ATP Challenger Costa do Sauipe, Brazil Men Singles",
+      "date_match": "2026-11-05T19:30:00.000Z",
+      "match_intitule": "Thiago Monteiro vs Marco Cecchinato",
+      "joueur_choisi": "Marco Cecchinato",
+      "cote_jouee": 2.14,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "Paris, France, Simple Messieurs",
+      "date_match": "2026-11-05T18:00:00.000Z",
+      "match_intitule": "Arthur Fils vs Taylor Fritz",
+      "joueur_choisi": "Taylor Fritz",
+      "cote_jouee": 2.06,
+      "mise": 4.2998642562,
+      "statut": "Gagné",
+      "gain_net": 4.56,
+      "statut_analyse": "VB_suspect"
+    },
+    {
+      "nom_tournoi": "ATP Challenger Costa do Sauipe, Brazil Men Singles",
+      "date_match": "2026-11-05T18:00:00.000Z",
+      "match_intitule": "Facundo Diaz Acosta vs Filip Misolic",
+      "joueur_choisi": "Facundo Diaz Acosta",
+      "cote_jouee": 1.37,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "Bratislava II, Slovaquie, Simple Messieurs",
+      "date_match": "2026-11-05T17:20:00.000Z",
+      "match_intitule": "Nicolai Budkov Kjaer vs Kimmer Coppejans",
+      "joueur_choisi": "Nicolai Budkov Kjaer",
+      "cote_jouee": 1.32,
+      "mise": 0.0,
+      "statut": "Perdu",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "Charlottesville, USA, Simple Messieurs",
+      "date_match": "2026-11-05T17:20:00.000Z",
+      "match_intitule": "Daniel Milavsky vs Max Hans Rehberg",
+      "joueur_choisi": "Daniel Milavsky",
+      "cote_jouee": 1.97,
+      "mise": 0.0,
+      "statut": "Perdu",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
     {
       "nom_tournoi": "Taipei, Taipei chinois, Simple Messieurs",
       "date_match": "2026-11-05T02:00:00.000Z",
