@@ -1,6 +1,94 @@
 {
-  "genere_le": "2026-11-07T07:24:34.441297",
+  "genere_le": "2026-11-08T07:06:49.241643",
   "resultats": [
+    {
+      "nom_tournoi": "ATP Challenger Costa do Sauipe, Brazil Men Singles",
+      "date_match": "2026-11-07T19:10:00.000Z",
+      "match_intitule": "Facundo Diaz Acosta vs Thiago Seyboth Wild",
+      "joueur_choisi": "Thiago Seyboth Wild",
+      "cote_jouee": 1.67,
+      "mise": 4.2998642562,
+      "statut": "Gagné",
+      "gain_net": 2.88,
+      "statut_analyse": "VB_valide"
+    },
+    {
+      "nom_tournoi": "ATP Challenger Costa do Sauipe, Brazil Men Singles",
+      "date_match": "2026-11-07T18:00:00.000Z",
+      "match_intitule": "Gonzalo Bueno vs Camilo Ugo Carabelli",
+      "joueur_choisi": "Camilo Ugo Carabelli",
+      "cote_jouee": 1.29,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "ATP Challenger Villa Maria, Argentina Men Singles",
+      "date_match": "2026-11-07T15:10:00.000Z",
+      "match_intitule": "Federico Coria vs Genaro Alberto Olivieri",
+      "joueur_choisi": "Genaro Alberto Olivieri",
+      "cote_jouee": 1.84,
+      "mise": 0.0,
+      "statut": "Annulé",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "ATP Challenger Villa Maria, Argentina Men Singles",
+      "date_match": "2026-11-07T14:00:00.000Z",
+      "match_intitule": "Juan Manuel La Serna vs Nicolas Kicker",
+      "joueur_choisi": "Juan Manuel La Serna",
+      "cote_jouee": 1.82,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "Bratislava II, Slovaquie, Simple Messieurs",
+      "date_match": "2026-11-07T13:20:00.000Z",
+      "match_intitule": "Dalibor Svrcina vs Jurij Rodionov",
+      "joueur_choisi": "Dalibor Svrcina",
+      "cote_jouee": 1.72,
+      "mise": 0.0,
+      "statut": "Perdu",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "ATP Challenger Taranto, Italy Men Singles",
+      "date_match": "2026-11-07T12:20:00.000Z",
+      "match_intitule": "Carlo Alberto Caniato vs Kilian Feldbausch",
+      "joueur_choisi": "Carlo Alberto Caniato",
+      "cote_jouee": 2.0,
+      "mise": 4.2998642562,
+      "statut": "Perdu",
+      "gain_net": -4.3,
+      "statut_analyse": "VB_valide"
+    },
+    {
+      "nom_tournoi": "Bratislava II, Slovaquie, Simple Messieurs",
+      "date_match": "2026-11-07T12:10:00.000Z",
+      "match_intitule": "Jerome Kym vs Matej Dodig",
+      "joueur_choisi": "Matej Dodig",
+      "cote_jouee": 2.43,
+      "mise": 4.2998642562,
+      "statut": "Perdu",
+      "gain_net": -4.3,
+      "statut_analyse": "VB_suspect"
+    },
+    {
+      "nom_tournoi": "ATP Challenger Taranto, Italy Men Singles",
+      "date_match": "2026-11-07T11:10:00.000Z",
+      "match_intitule": "Felix Gill vs Matteo Martineau",
+      "joueur_choisi": "Felix Gill",
+      "cote_jouee": 1.73,
+      "mise": 0.0,
+      "statut": "Perdu",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
     {
       "nom_tournoi": "Paris, France, Simple Messieurs",
       "date_match": "2026-11-06T14:10:00.000Z",
@@ -1074,50 +1162,6 @@
       "match_intitule": "Terence Atmane vs Coleman Wong",
       "joueur_choisi": "Coleman Wong",
       "cote_jouee": 2.07,
-      "mise": 0.0,
-      "statut": "Perdu",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Bâle, Suisse, Simple Messieurs",
-      "date_match": "2026-10-31T16:00:00.000Z",
-      "match_intitule": "Jiri Lehecka vs Jan-Lennard Struff",
-      "joueur_choisi": "Jiri Lehecka",
-      "cote_jouee": 1.46,
-      "mise": 0.0,
-      "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Vienne, Autriche, Simple Messieurs",
-      "date_match": "2026-10-31T15:30:00.000Z",
-      "match_intitule": "Alexander Zverev vs Alex de Minaur",
-      "joueur_choisi": "Alexander Zverev",
-      "cote_jouee": 1.38,
-      "mise": 0.0,
-      "statut": "Perdu",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Brest, France, Simple Messieurs",
-      "date_match": "2026-10-31T15:10:00.000Z",
-      "match_intitule": "Moise Kouame vs Otto Virtanen",
-      "joueur_choisi": "Moise Kouame",
-      "cote_jouee": 2.18,
-      "mise": 3.5082059998,
-      "statut": "Gagné",
-      "gain_net": 4.14,
-      "statut_analyse": "VB_valide"
-    },
-    {
-      "nom_tournoi": "Bâle, Suisse, Simple Messieurs",
-      "date_match": "2026-10-31T14:00:00.000Z",
-      "match_intitule": "Valentin Vacherot vs Taylor Fritz",
-      "joueur_choisi": "Taylor Fritz",
-      "cote_jouee": 1.32,
       "mise": 0.0,
       "statut": "Perdu",
       "gain_net": 0.0,
