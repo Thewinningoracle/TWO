@@ -1,6 +1,105 @@
 {
-  "genere_le": "2026-11-08T07:06:49.241643",
+  "genere_le": "2026-11-09T07:07:00.874028",
   "resultats": [
+    {
+      "nom_tournoi": "Stockholm, Suède, Simple Messieurs",
+      "date_match": "2026-11-08T16:10:00.000Z",
+      "match_intitule": "Thiago Agustin Tirante vs Jaume Munar",
+      "joueur_choisi": "Thiago Agustin Tirante",
+      "cote_jouee": 2.35,
+      "mise": 4.0848642562,
+      "statut": "Gagné",
+      "gain_net": 5.51,
+      "statut_analyse": "VB_suspect"
+    },
+    {
+      "nom_tournoi": "ATP Challenger Villa Maria, Argentina Men Singles",
+      "date_match": "2026-11-08T14:00:00.000Z",
+      "match_intitule": "Juan Manuel La Serna vs Genaro Alberto Olivieri",
+      "joueur_choisi": "Juan Manuel La Serna",
+      "cote_jouee": 1.86,
+      "mise": 3.92860172,
+      "statut": "Gagné",
+      "gain_net": 3.38,
+      "statut_analyse": "VB_valide"
+    },
+    {
+      "nom_tournoi": "Bratislava II, Slovaquie, Simple Messieurs",
+      "date_match": "2026-11-08T13:00:00.000Z",
+      "match_intitule": "Jerome Kym vs Jurij Rodionov",
+      "joueur_choisi": "Jurij Rodionov",
+      "cote_jouee": 2.85,
+      "mise": 4.0848642562,
+      "statut": "Gagné",
+      "gain_net": 7.56,
+      "statut_analyse": "VB_suspect"
+    },
+    {
+      "nom_tournoi": "Stockholm, Suède, Simple Messieurs",
+      "date_match": "2026-11-08T12:10:00.000Z",
+      "match_intitule": "Adrian Mannarino vs Toby Samuel",
+      "joueur_choisi": "Toby Samuel",
+      "cote_jouee": 1.86,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "Stockholm, Suède, Simple Messieurs",
+      "date_match": "2026-11-08T12:10:00.000Z",
+      "match_intitule": "Jacob Fearnley vs Alexander Shevchenko",
+      "joueur_choisi": "Jacob Fearnley",
+      "cote_jouee": 1.35,
+      "mise": 0.0,
+      "statut": "Perdu",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "ATP Challenger Hersonissos 3, Greece Men Singles",
+      "date_match": "2026-11-08T11:30:00.000Z",
+      "match_intitule": "Leo Raquillet vs Lorenzo Carboni",
+      "joueur_choisi": "Lorenzo Carboni",
+      "cote_jouee": 1.41,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "Stockholm, Suède, Simple Messieurs",
+      "date_match": "2026-11-08T11:00:00.000Z",
+      "match_intitule": "Nikoloz Basilashvili vs Borna Gojo",
+      "joueur_choisi": "Borna Gojo",
+      "cote_jouee": 2.55,
+      "mise": 3.8793951052,
+      "statut": "Gagné",
+      "gain_net": 6.01,
+      "statut_analyse": "VB_valide"
+    },
+    {
+      "nom_tournoi": "ATP Challenger Taranto, Italy Men Singles",
+      "date_match": "2026-11-08T10:00:00.000Z",
+      "match_intitule": "Kilian Feldbausch vs Matteo Martineau",
+      "joueur_choisi": "Kilian Feldbausch",
+      "cote_jouee": 1.63,
+      "mise": 0.0,
+      "statut": "Perdu",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "Orléans, France, Simple Messieurs",
+      "date_match": "2026-11-08T09:00:00.000Z",
+      "match_intitule": "Max Houkes vs Robin Catry",
+      "joueur_choisi": "Max Houkes",
+      "cote_jouee": 1.57,
+      "mise": 4.0848642562,
+      "statut": "Annulé",
+      "gain_net": 0.0,
+      "statut_analyse": "VB_suspect"
+    },
     {
       "nom_tournoi": "ATP Challenger Costa do Sauipe, Brazil Men Singles",
       "date_match": "2026-11-07T19:10:00.000Z",
@@ -1043,127 +1142,6 @@
       "cote_jouee": 1.92,
       "mise": 0.0,
       "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Bratislava II, Slovaquie, Simple Messieurs",
-      "date_match": "2026-11-01T14:50:00.000Z",
-      "match_intitule": "Jonas Forejtek vs Ryan Seggerman",
-      "joueur_choisi": "Jonas Forejtek",
-      "cote_jouee": 1.63,
-      "mise": 0.0,
-      "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Bâle, Suisse, Simple Messieurs",
-      "date_match": "2026-11-01T14:30:00.000Z",
-      "match_intitule": "Jiri Lehecka vs Valentin Vacherot",
-      "joueur_choisi": "Jiri Lehecka",
-      "cote_jouee": 1.53,
-      "mise": 0.0,
-      "statut": "Perdu",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Paris, France, Simple Messieurs",
-      "date_match": "2026-11-01T13:30:00.000Z",
-      "match_intitule": "Nuno Borges vs Alex Molcan",
-      "joueur_choisi": "Nuno Borges",
-      "cote_jouee": 1.65,
-      "mise": 0.0,
-      "statut": "Perdu",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Paris, France, Simple Messieurs",
-      "date_match": "2026-11-01T12:20:00.000Z",
-      "match_intitule": "Adolfo Daniel Vallejo vs Lorenzo Sonego",
-      "joueur_choisi": "Lorenzo Sonego",
-      "cote_jouee": 1.63,
-      "mise": 0.0,
-      "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Bratislava II, Slovaquie, Simple Messieurs",
-      "date_match": "2026-11-01T11:20:00.000Z",
-      "match_intitule": "Michael Vrbensky vs Marek Gengel",
-      "joueur_choisi": "Michael Vrbensky",
-      "cote_jouee": 1.96,
-      "mise": 0.0,
-      "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "ATP Challenger Taranto, Italy Men Singles",
-      "date_match": "2026-11-01T11:20:00.000Z",
-      "match_intitule": "Sebastian Gima vs Ryan Peniston",
-      "joueur_choisi": "Ryan Peniston",
-      "cote_jouee": 1.44,
-      "mise": 0.0,
-      "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Paris, France, Simple Messieurs",
-      "date_match": "2026-11-01T11:10:00.000Z",
-      "match_intitule": "Benjamin Bonzi vs Yannick Hanfmann",
-      "joueur_choisi": "Yannick Hanfmann",
-      "cote_jouee": 2.0,
-      "mise": 0.0,
-      "statut": "Perdu",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Paris, France, Simple Messieurs",
-      "date_match": "2026-11-01T11:00:00.000Z",
-      "match_intitule": "Juan Manuel Cerundolo vs Miomir Kecmanovic",
-      "joueur_choisi": "Juan Manuel Cerundolo",
-      "cote_jouee": 1.72,
-      "mise": 0.0,
-      "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Paris, France, Simple Messieurs",
-      "date_match": "2026-11-01T10:00:00.000Z",
-      "match_intitule": "Thiago Agustin Tirante vs Mattia Bellucci",
-      "joueur_choisi": "Mattia Bellucci",
-      "cote_jouee": 1.5,
-      "mise": 0.0,
-      "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Paris, France, Simple Messieurs",
-      "date_match": "2026-11-01T10:00:00.000Z",
-      "match_intitule": "Rinky Hijikata vs Vit Kopriva",
-      "joueur_choisi": "Rinky Hijikata",
-      "cote_jouee": 1.38,
-      "mise": 0.0,
-      "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Séoul, République de Corée, Simple Messieurs",
-      "date_match": "2026-11-01T07:00:00.000Z",
-      "match_intitule": "Terence Atmane vs Coleman Wong",
-      "joueur_choisi": "Coleman Wong",
-      "cote_jouee": 2.07,
-      "mise": 0.0,
-      "statut": "Perdu",
       "gain_net": 0.0,
       "statut_analyse": "Pas_de_value"
     }
