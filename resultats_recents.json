@@ -1,6 +1,61 @@
 {
-  "genere_le": "2026-11-14T07:06:42.704412",
+  "genere_le": "2026-11-15T07:06:43.599474",
   "resultats": [
+    {
+      "nom_tournoi": "Knoxville, USA, Simple Messieurs",
+      "date_match": "2026-11-14T16:30:00.000Z",
+      "match_intitule": "Abdullah Shelbayh vs Daniel Milavsky",
+      "joueur_choisi": "Daniel Milavsky",
+      "cote_jouee": 1.62,
+      "mise": 5.0308642562,
+      "statut": "Perdu",
+      "gain_net": -5.03,
+      "statut_analyse": "VB_valide"
+    },
+    {
+      "nom_tournoi": "Orléans, France, Simple Messieurs",
+      "date_match": "2026-11-14T14:10:00.000Z",
+      "match_intitule": "Nishesh Basavareddy vs Daniel Altmaier",
+      "joueur_choisi": "Nishesh Basavareddy",
+      "cote_jouee": 1.52,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "ATP Challenger Monastir, Tunisia Men Singles",
+      "date_match": "2026-11-14T12:10:00.000Z",
+      "match_intitule": "Pedro Vives Marcos vs Kilian Feldbausch",
+      "joueur_choisi": "Kilian Feldbausch",
+      "cote_jouee": 1.55,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "ATP Challenger Hersonissos 3, Greece Men Singles",
+      "date_match": "2026-11-14T09:10:00.000Z",
+      "match_intitule": "Francesco Maestrelli vs Philip Henning",
+      "joueur_choisi": "Francesco Maestrelli",
+      "cote_jouee": 1.79,
+      "mise": 5.0308642562,
+      "statut": "Perdu",
+      "gain_net": -5.03,
+      "statut_analyse": "VB_suspect"
+    },
+    {
+      "nom_tournoi": "ATP Challenger Hersonissos 3, Greece Men Singles",
+      "date_match": "2026-11-14T08:00:00.000Z",
+      "match_intitule": "Michele Ribecai vs Henry Searle",
+      "joueur_choisi": "Michele Ribecai",
+      "cote_jouee": 2.45,
+      "mise": 5.0308642562,
+      "statut": "Gagné",
+      "gain_net": 7.29,
+      "statut_analyse": "VB_suspect"
+    },
     {
       "nom_tournoi": "Knoxville, USA, Simple Messieurs",
       "date_match": "2026-11-13T18:10:00.000Z",
@@ -416,6 +471,17 @@
       "cote_jouee": 1.5,
       "mise": 0.0,
       "statut": "Perdu",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "ATP Challenger Monastir, Tunisia Men Singles",
+      "date_match": "2026-11-11T12:00:00.000Z",
+      "match_intitule": "Kilian Feldbausch vs Tiago Pereira",
+      "joueur_choisi": "Kilian Feldbausch",
+      "cote_jouee": 1.3,
+      "mise": 0.0,
+      "statut": "Gagné",
       "gain_net": 0.0,
       "statut_analyse": "Pas_de_value"
     },
@@ -1077,116 +1143,6 @@
       "mise": 4.0848642562,
       "statut": "Perdu",
       "gain_net": -4.0848642562,
-      "statut_analyse": "VB_suspect"
-    },
-    {
-      "nom_tournoi": "ATP Challenger Costa do Sauipe, Brazil Men Singles",
-      "date_match": "2026-11-07T19:10:00.000Z",
-      "match_intitule": "Facundo Diaz Acosta vs Thiago Seyboth Wild",
-      "joueur_choisi": "Thiago Seyboth Wild",
-      "cote_jouee": 1.67,
-      "mise": 4.2998642562,
-      "statut": "Gagné",
-      "gain_net": 2.88,
-      "statut_analyse": "VB_valide"
-    },
-    {
-      "nom_tournoi": "Charlottesville, USA, Simple Messieurs",
-      "date_match": "2026-11-07T18:30:00.000Z",
-      "match_intitule": "Aidan Mayo vs Andres Andrade",
-      "joueur_choisi": "Aidan Mayo",
-      "cote_jouee": 1.43,
-      "mise": 0.0,
-      "statut": "Annulé",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "ATP Challenger Costa do Sauipe, Brazil Men Singles",
-      "date_match": "2026-11-07T18:00:00.000Z",
-      "match_intitule": "Gonzalo Bueno vs Camilo Ugo Carabelli",
-      "joueur_choisi": "Camilo Ugo Carabelli",
-      "cote_jouee": 1.29,
-      "mise": 0.0,
-      "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "ATP Challenger Villa Maria, Argentina Men Singles",
-      "date_match": "2026-11-07T15:10:00.000Z",
-      "match_intitule": "Federico Coria vs Genaro Alberto Olivieri",
-      "joueur_choisi": "Genaro Alberto Olivieri",
-      "cote_jouee": 1.84,
-      "mise": 0.0,
-      "statut": "Annulé",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "ATP Challenger Villa Maria, Argentina Men Singles",
-      "date_match": "2026-11-07T14:00:00.000Z",
-      "match_intitule": "Juan Manuel La Serna vs Nicolas Kicker",
-      "joueur_choisi": "Juan Manuel La Serna",
-      "cote_jouee": 1.82,
-      "mise": 0.0,
-      "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Bratislava II, Slovaquie, Simple Messieurs",
-      "date_match": "2026-11-07T13:20:00.000Z",
-      "match_intitule": "Dalibor Svrcina vs Jurij Rodionov",
-      "joueur_choisi": "Dalibor Svrcina",
-      "cote_jouee": 1.72,
-      "mise": 0.0,
-      "statut": "Perdu",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "ATP Challenger Taranto, Italy Men Singles",
-      "date_match": "2026-11-07T12:20:00.000Z",
-      "match_intitule": "Carlo Alberto Caniato vs Kilian Feldbausch",
-      "joueur_choisi": "Carlo Alberto Caniato",
-      "cote_jouee": 2.0,
-      "mise": 4.2998642562,
-      "statut": "Perdu",
-      "gain_net": -4.3,
-      "statut_analyse": "VB_valide"
-    },
-    {
-      "nom_tournoi": "Bratislava II, Slovaquie, Simple Messieurs",
-      "date_match": "2026-11-07T12:10:00.000Z",
-      "match_intitule": "Jerome Kym vs Matej Dodig",
-      "joueur_choisi": "Matej Dodig",
-      "cote_jouee": 2.43,
-      "mise": 4.2998642562,
-      "statut": "Perdu",
-      "gain_net": -4.3,
-      "statut_analyse": "VB_suspect"
-    },
-    {
-      "nom_tournoi": "ATP Challenger Taranto, Italy Men Singles",
-      "date_match": "2026-11-07T11:10:00.000Z",
-      "match_intitule": "Felix Gill vs Matteo Martineau",
-      "joueur_choisi": "Felix Gill",
-      "cote_jouee": 1.73,
-      "mise": 0.0,
-      "statut": "Perdu",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Taipei, Taipei chinois, Simple Messieurs",
-      "date_match": "2026-11-07T06:30:00.000Z",
-      "match_intitule": "Coleman Wong vs Yosuke Watanuki",
-      "joueur_choisi": "Coleman Wong",
-      "cote_jouee": 1.68,
-      "mise": 4.2998642562,
-      "statut": "Perdu",
-      "gain_net": -4.2998642562,
       "statut_analyse": "VB_suspect"
     }
   ]
