@@ -1,6 +1,39 @@
 {
-  "genere_le": "2026-11-16T07:10:12.325870",
+  "genere_le": "2026-11-17T07:07:01.629793",
   "resultats": [
+    {
+      "nom_tournoi": "Finales World Tour, Simple Messieurs",
+      "date_match": "2026-11-16T19:30:00.000Z",
+      "match_intitule": "Daniil Medvedev vs Flavio Cobolli",
+      "joueur_choisi": "Daniil Medvedev",
+      "cote_jouee": 1.32,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "Sydney, Australie, Simple Messieurs",
+      "date_match": "2026-11-16T06:20:00.000Z",
+      "match_intitule": "Jake Delaney vs Akira Santillan",
+      "joueur_choisi": "Akira Santillan",
+      "cote_jouee": 1.72,
+      "mise": 0.0,
+      "statut": "Annulé",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "Finales World Tour, Simple Messieurs",
+      "date_match": "2026-11-15T19:30:00.000Z",
+      "match_intitule": "Ben Shelton vs Arthur Fils",
+      "joueur_choisi": "Ben Shelton",
+      "cote_jouee": 1.52,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
     {
       "nom_tournoi": "Finales World Tour, Simple Messieurs",
       "date_match": "2026-11-15T13:00:00.000Z",
@@ -911,127 +944,6 @@
       "cote_jouee": 1.34,
       "mise": 0.0,
       "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "ATP Challenger Monastir, Tunisia Men Singles",
-      "date_match": "2026-11-09T14:20:00.000Z",
-      "match_intitule": "Sandro Kopp vs Luka Mikrut",
-      "joueur_choisi": "Luka Mikrut",
-      "cote_jouee": 1.3,
-      "mise": 0.0,
-      "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Stockholm, Suède, Simple Messieurs",
-      "date_match": "2026-11-09T13:10:00.000Z",
-      "match_intitule": "Adolfo Daniel Vallejo vs Ugo Humbert",
-      "joueur_choisi": "Ugo Humbert",
-      "cote_jouee": 1.38,
-      "mise": 0.0,
-      "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Stockholm, Suède, Simple Messieurs",
-      "date_match": "2026-11-09T12:20:00.000Z",
-      "match_intitule": "Tomas Machac vs Borna Gojo",
-      "joueur_choisi": "Borna Gojo",
-      "cote_jouee": 3.35,
-      "mise": 4.0138642562,
-      "statut": "Gagné",
-      "gain_net": 9.43,
-      "statut_analyse": "VB_suspect"
-    },
-    {
-      "nom_tournoi": "Orléans, France, Simple Messieurs",
-      "date_match": "2026-11-09T12:20:00.000Z",
-      "match_intitule": "Luca Nardi vs Alexander Ritschard",
-      "joueur_choisi": "Alexander Ritschard",
-      "cote_jouee": 2.02,
-      "mise": 4.0138642562,
-      "statut": "Perdu",
-      "gain_net": -4.01,
-      "statut_analyse": "VB_suspect"
-    },
-    {
-      "nom_tournoi": "Stockholm, Suède, Simple Messieurs",
-      "date_match": "2026-11-09T12:00:00.000Z",
-      "match_intitule": "James Duckworth vs Cameron Norrie",
-      "joueur_choisi": "Cameron Norrie",
-      "cote_jouee": 1.35,
-      "mise": 0.0,
-      "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "ATP Challenger Hersonissos 3, Greece Men Singles",
-      "date_match": "2026-11-09T11:30:00.000Z",
-      "match_intitule": "Ryan Peniston vs Henry Searle",
-      "joueur_choisi": "Henry Searle",
-      "cote_jouee": 1.3,
-      "mise": 0.0,
-      "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Orléans, France, Simple Messieurs",
-      "date_match": "2026-11-09T11:10:00.000Z",
-      "match_intitule": "Edas Butvilas vs Cosme Rolland De Ravel",
-      "joueur_choisi": "Edas Butvilas",
-      "cote_jouee": 1.72,
-      "mise": 0.0,
-      "statut": "Perdu",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Orléans, France, Simple Messieurs",
-      "date_match": "2026-11-09T11:10:00.000Z",
-      "match_intitule": "Hugo Grenier vs Martin Krumich",
-      "joueur_choisi": "Martin Krumich",
-      "cote_jouee": 1.86,
-      "mise": 0.0,
-      "statut": "Perdu",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "ATP Challenger Hersonissos 3, Greece Men Singles",
-      "date_match": "2026-11-09T10:20:00.000Z",
-      "match_intitule": "Massimo Giunta vs Francesco Forti",
-      "joueur_choisi": "Massimo Giunta",
-      "cote_jouee": 1.66,
-      "mise": 0.0,
-      "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "ATP Challenger Hersonissos 3, Greece Men Singles",
-      "date_match": "2026-11-09T10:20:00.000Z",
-      "match_intitule": "Johannus Monday vs Georgii Kravchenko",
-      "joueur_choisi": "Johannus Monday",
-      "cote_jouee": 2.15,
-      "mise": 4.0138642562,
-      "statut": "Gagné",
-      "gain_net": 4.62,
-      "statut_analyse": "VB_suspect"
-    },
-    {
-      "nom_tournoi": "Orléans, France, Simple Messieurs",
-      "date_match": "2026-11-09T10:00:00.000Z",
-      "match_intitule": "Buvaysar Gadamauri vs Ugo Blanchet",
-      "joueur_choisi": "Ugo Blanchet",
-      "cote_jouee": 1.47,
-      "mise": 0.0,
-      "statut": "Perdu",
       "gain_net": 0.0,
       "statut_analyse": "Pas_de_value"
     }
