@@ -1,6 +1,39 @@
 {
-  "genere_le": "2026-11-22T07:06:48.114390",
+  "genere_le": "2026-11-23T07:07:00.851791",
   "resultats": [
+    {
+      "nom_tournoi": "Playford City, Australie, Simple Messieurs",
+      "date_match": "2026-11-23T23:30:00.000Z",
+      "match_intitule": "Omar Jasika vs Sebastian Gorzny",
+      "joueur_choisi": "Sebastian Gorzny",
+      "cote_jouee": 1.65,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "Drummondville, Canada, Simple Messieurs",
+      "date_match": "2026-11-22T17:00:00.000Z",
+      "match_intitule": "Liam Draxl vs Dylan Dietrich",
+      "joueur_choisi": "Dylan Dietrich",
+      "cote_jouee": 1.45,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "Helsinki, Finlande, Simple Messieurs",
+      "date_match": "2026-11-22T11:00:00.000Z",
+      "match_intitule": "Otto Virtanen vs Toby Samuel",
+      "joueur_choisi": "Toby Samuel",
+      "cote_jouee": 2.43,
+      "mise": 3.0822375067,
+      "statut": "Gagné",
+      "gain_net": 4.41,
+      "statut_analyse": "VB_valide"
+    },
     {
       "nom_tournoi": "Helsinki, Finlande, Simple Messieurs",
       "date_match": "2026-11-21T12:10:00.000Z",
@@ -537,28 +570,6 @@
       "cote_jouee": 1.72,
       "mise": 0.0,
       "statut": "Annulé",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Finales World Tour, Simple Messieurs",
-      "date_match": "2026-11-15T19:30:00.000Z",
-      "match_intitule": "Ben Shelton vs Arthur Fils",
-      "joueur_choisi": "Ben Shelton",
-      "cote_jouee": 1.52,
-      "mise": 0.0,
-      "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Finales World Tour, Simple Messieurs",
-      "date_match": "2026-11-15T13:00:00.000Z",
-      "match_intitule": "Alexander Zverev vs Rafael Jodar",
-      "joueur_choisi": "Alexander Zverev",
-      "cote_jouee": 1.38,
-      "mise": 0.0,
-      "statut": "Gagné",
       "gain_net": 0.0,
       "statut_analyse": "Pas_de_value"
     }
