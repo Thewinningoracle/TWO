@@ -1,6 +1,28 @@
 {
-  "genere_le": "2026-11-23T07:07:00.851791",
+  "genere_le": "2026-11-24T07:07:29.635378",
   "resultats": [
+    {
+      "nom_tournoi": "Florianopolis, Brésil, Simple Messieurs",
+      "date_match": "2026-11-24T13:00:00.000Z",
+      "match_intitule": "Juan Estevez vs Franco Roncadelli",
+      "joueur_choisi": "Franco Roncadelli",
+      "cote_jouee": 1.52,
+      "mise": 0.0,
+      "statut": "Annulé",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "Playford City, Australie, Simple Messieurs",
+      "date_match": "2026-11-23T23:30:00.000Z",
+      "match_intitule": "Edward Winter vs Li Tu",
+      "joueur_choisi": "Li Tu",
+      "cote_jouee": 1.5,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
     {
       "nom_tournoi": "Playford City, Australie, Simple Messieurs",
       "date_match": "2026-11-23T23:30:00.000Z",
@@ -11,6 +33,39 @@
       "statut": "Gagné",
       "gain_net": 0.0,
       "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "ATP Challenger Monastir 2, Tunisia Men Singles",
+      "date_match": "2026-11-23T15:30:00.000Z",
+      "match_intitule": "Gabriel Debru vs Sandro Kopp",
+      "joueur_choisi": "Gabriel Debru",
+      "cote_jouee": 1.48,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "ATP Challenger Hersonissos 4, Greece Men Singles",
+      "date_match": "2026-11-23T11:00:00.000Z",
+      "match_intitule": "Alejo Sanchez Quilez vs Michael Geerts",
+      "joueur_choisi": "Alejo Sanchez Quilez",
+      "cote_jouee": 1.79,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "ATP Challenger Hersonissos 4, Greece Men Singles",
+      "date_match": "2026-11-23T09:10:00.000Z",
+      "match_intitule": "Alexander Vasilev vs Leo Raquillet",
+      "joueur_choisi": "Alexander Vasilev",
+      "cote_jouee": 1.89,
+      "mise": 3.8838642562,
+      "statut": "Perdu",
+      "gain_net": -3.88,
+      "statut_analyse": "VB_suspect"
     },
     {
       "nom_tournoi": "Drummondville, Canada, Simple Messieurs",
@@ -548,28 +603,6 @@
       "cote_jouee": 1.34,
       "mise": 0.0,
       "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Finales World Tour, Simple Messieurs",
-      "date_match": "2026-11-16T19:30:00.000Z",
-      "match_intitule": "Daniil Medvedev vs Flavio Cobolli",
-      "joueur_choisi": "Daniil Medvedev",
-      "cote_jouee": 1.32,
-      "mise": 0.0,
-      "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Sydney, Australie, Simple Messieurs",
-      "date_match": "2026-11-16T06:20:00.000Z",
-      "match_intitule": "Jake Delaney vs Akira Santillan",
-      "joueur_choisi": "Akira Santillan",
-      "cote_jouee": 1.72,
-      "mise": 0.0,
-      "statut": "Annulé",
       "gain_net": 0.0,
       "statut_analyse": "Pas_de_value"
     }
