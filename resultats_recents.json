@@ -1,6 +1,83 @@
 {
-  "genere_le": "2026-11-25T07:07:27.320708",
+  "genere_le": "2026-11-26T07:07:38.279080",
   "resultats": [
+    {
+      "nom_tournoi": "Playford City, Australie, Simple Messieurs",
+      "date_match": "2026-11-26T00:30:00.000Z",
+      "match_intitule": "Jason Kubler vs Carl Emil Overbeck",
+      "joueur_choisi": "Jason Kubler",
+      "cote_jouee": 1.36,
+      "mise": 0.0,
+      "statut": "Perdu",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "Florianopolis, Brésil, Simple Messieurs",
+      "date_match": "2026-11-25T15:25:00.000Z",
+      "match_intitule": "Johan Nikles vs Pedro Boscardin Dias",
+      "joueur_choisi": "Pedro Boscardin Dias",
+      "cote_jouee": 1.33,
+      "mise": 0.0,
+      "statut": "Perdu",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "Florianopolis, Brésil, Simple Messieurs",
+      "date_match": "2026-11-25T15:05:00.000Z",
+      "match_intitule": "Nicolas Kicker vs Elmer Moller",
+      "joueur_choisi": "Elmer Moller",
+      "cote_jouee": 1.33,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "ATP Challenger Ankara, Turkiye Men Singles",
+      "date_match": "2026-11-25T10:20:00.000Z",
+      "match_intitule": "Diego Dedura vs Oleg Prihodko",
+      "joueur_choisi": "Diego Dedura",
+      "cote_jouee": 1.42,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
+    {
+      "nom_tournoi": "ATP Challenger Monastir 2, Tunisia Men Singles",
+      "date_match": "2026-11-25T10:00:00.000Z",
+      "match_intitule": "Leo Borg vs Dali Blanch",
+      "joueur_choisi": "Dali Blanch",
+      "cote_jouee": 1.35,
+      "mise": 4.1043642562,
+      "statut": "Gagné",
+      "gain_net": 1.44,
+      "statut_analyse": "VB_valide"
+    },
+    {
+      "nom_tournoi": "ATP Challenger Monastir 2, Tunisia Men Singles",
+      "date_match": "2026-11-25T10:00:00.000Z",
+      "match_intitule": "Robert Strombachs vs Gabriel Debru",
+      "joueur_choisi": "Gabriel Debru",
+      "cote_jouee": 1.45,
+      "mise": 4.1043642562,
+      "statut": "Gagné",
+      "gain_net": 1.85,
+      "statut_analyse": "VB_suspect"
+    },
+    {
+      "nom_tournoi": "ATP Challenger Ankara, Turkiye Men Singles",
+      "date_match": "2026-11-25T09:10:00.000Z",
+      "match_intitule": "Matthew William Donald vs Robin Catry",
+      "joueur_choisi": "Matthew William Donald",
+      "cote_jouee": 1.5,
+      "mise": 0.0,
+      "statut": "Gagné",
+      "gain_net": 0.0,
+      "statut_analyse": "Pas_de_value"
+    },
     {
       "nom_tournoi": "Florianopolis, Brésil, Simple Messieurs",
       "date_match": "2026-11-24T14:30:00.000Z",
@@ -447,83 +524,6 @@
       "match_intitule": "Borna Gojo vs Nishesh Basavareddy",
       "joueur_choisi": "Nishesh Basavareddy",
       "cote_jouee": 1.61,
-      "mise": 0.0,
-      "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Champaign, USA, Simple Messieurs",
-      "date_match": "2026-11-18T16:00:00.000Z",
-      "match_intitule": "Spencer Johnson vs Raphael Perot",
-      "joueur_choisi": "Spencer Johnson",
-      "cote_jouee": 1.75,
-      "mise": 4.5518642562,
-      "statut": "Gagné",
-      "gain_net": 3.41,
-      "statut_analyse": "VB_suspect"
-    },
-    {
-      "nom_tournoi": "Helsinki, Finlande, Simple Messieurs",
-      "date_match": "2026-11-18T12:40:00.000Z",
-      "match_intitule": "Michele Ribecai vs Edas Butvilas",
-      "joueur_choisi": "Michele Ribecai",
-      "cote_jouee": 2.38,
-      "mise": 4.5518642562,
-      "statut": "Perdu",
-      "gain_net": -4.55,
-      "statut_analyse": "VB_suspect"
-    },
-    {
-      "nom_tournoi": "Helsinki, Finlande, Simple Messieurs",
-      "date_match": "2026-11-18T12:40:00.000Z",
-      "match_intitule": "Jurij Rodionov vs Nicolai Budkov Kjaer",
-      "joueur_choisi": "Jurij Rodionov",
-      "cote_jouee": 1.76,
-      "mise": 4.5518642562,
-      "statut": "Perdu",
-      "gain_net": -4.55,
-      "statut_analyse": "VB_valide"
-    },
-    {
-      "nom_tournoi": "Helsinki, Finlande, Simple Messieurs",
-      "date_match": "2026-11-18T12:40:00.000Z",
-      "match_intitule": "Laslo Djere vs Jacob Fearnley",
-      "joueur_choisi": "Laslo Djere",
-      "cote_jouee": 3.05,
-      "mise": 4.5518642562,
-      "statut": "Gagné",
-      "gain_net": 9.33,
-      "statut_analyse": "VB_suspect"
-    },
-    {
-      "nom_tournoi": "Helsinki, Finlande, Simple Messieurs",
-      "date_match": "2026-11-18T11:30:00.000Z",
-      "match_intitule": "Daniil Glinka vs Nishesh Basavareddy",
-      "joueur_choisi": "Nishesh Basavareddy",
-      "cote_jouee": 1.29,
-      "mise": 0.0,
-      "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "Helsinki, Finlande, Simple Messieurs",
-      "date_match": "2026-11-18T11:30:00.000Z",
-      "match_intitule": "Andrea Guerrieri vs Toby Samuel",
-      "joueur_choisi": "Toby Samuel",
-      "cote_jouee": 1.38,
-      "mise": 0.0,
-      "statut": "Gagné",
-      "gain_net": 0.0,
-      "statut_analyse": "Pas_de_value"
-    },
-    {
-      "nom_tournoi": "ATP Challenger Metz, France Men Singles",
-      "date_match": "2026-11-18T11:30:00.000Z",
-      "match_intitule": "Alexandre Muller vs Zsombor Piros",
-      "joueur_choisi": "Zsombor Piros",
-      "cote_jouee": 1.58,
       "mise": 0.0,
       "statut": "Gagné",
       "gain_net": 0.0,
